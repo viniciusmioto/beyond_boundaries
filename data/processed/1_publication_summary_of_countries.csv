@@ -1,0 +1,16 @@
+rank,country_code,country,total_publications,citation_count,ratio
+1,CN,China,501664,4679161,9.33
+2,US,United States of America,293177,3763825,12.84
+3,IN,India,215703,1218125,5.65
+4,ID,Indonesia,211090,506515,2.4
+5,GB,Great Britain and Northern Ireland,87309,1192917,13.66
+6,DE,Germany,86719,858562,9.9
+7,JP,Japan,61113,362545,5.93
+8,RU,Russian Federation,59222,184163,3.11
+9,FR,France,56036,426944,7.62
+10,CA,Canada,52633,671811,12.76
+11,IT,Italy,50169,447989,8.93
+12,BR,Brazil,47987,199121,4.15
+13,KR,Republic of Korea,47744,537484,11.26
+14,ES,Spain,45788,416610,9.1
+15,AU,Australia,44093,791735,17.96
