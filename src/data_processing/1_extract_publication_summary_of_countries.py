@@ -1,30 +1,17 @@
-# https://openalex.org/works?page=1&filter=primary_topic.field.id%3Afields%2F17,publication_year%3A2015%20-%202024&group_by=publication_year,open_access.is_oa,primary_topic.id,authorships.institutions.lineage,type,authorships.countries&view=list,report,api
+# https://openalex.org/works?page=1&filter=primary_topic.field.id%3Afields%2F17,publication_year%3A2015%20-%202024,type%3Atypes%2Farticle%7Ctypes%2Fbook-chapter&group_by=publication_year,open_access.is_oa,primary_topic.id,authorships.institutions.lineage,type,authorships.countries&view=list,report,api
 
-# According to the OpenAlex link above, the 15 top countries in terms of number of publication are listed as follows
+# According to the OpenAlex link above, the 15 top countries in terms of number of publication 
+# are listed on utils/mappings.py as COUNTRY_CODES
 
 import requests
 import csv
 from time import sleep
+from utils import mappings
 
 OUTPUT_FILE = "../../data/processed/1_publication_summary_of_countries.csv"
 
-COUNTRY_CODES = {
-    "CN":"China",
-    "US":"United States of America",
-    "IN":"India",
-    "ID":"Indonesia",
-    "GB":"Great Britain and Northern Ireland",
-    "DE":"Germany",
-    "FR":"France",
-    "JP":"Japan",
-    "CA":"Canada",
-    "IT":"Italy",
-    "RU":"Russian Federation",
-    "ES":"Spain",
-    "BR":"Brazil",
-    "KR":"Republic of Korea",
-    "AU":"Australia",
-}
+BEGIN_YEAR = "2015"
+END_YEAR = "2024"
 
 
 def get_count(url):
@@ -46,13 +33,13 @@ def get_count(url):
 def main():
     results = []
 
-    for country in COUNTRY_CODES.keys():
-        print(f"Getting publication summary for {COUNTRY_CODES[country]}")
+    for country in mappings.COUNTRY_CODES.keys():
+        print(f"Getting publication summary for {mappings.COUNTRY_CODES[country]}")
 
         # Build the API endpoint using the country code
         works_url = (
             f"https://api.openalex.org/works?page=1&"
-            f"filter=primary_topic.field.id:fields/17,publication_year:2019+-+2024,type:types/article|types/book-chapter,"
+            f"filter=primary_topic.field.id:fields/17,publication_year:{BEGIN_YEAR}+-+{END_YEAR},type:types/article|types/book-chapter,"
             f"authorships.countries:{country}&cited_by_count_sum=true&per_page=1"
         )
 
@@ -61,10 +48,14 @@ def main():
         results.append(
             {
                 "country_code": country,
-                "country": COUNTRY_CODES[country],
+                "country": mappings.COUNTRY_CODES[country],
                 "total_publications": total_publications,
                 "citation_count": citations_count,
-                "ratio": round(citations_count / total_publications, 2) if total_publications > 0 else 0,
+                "ratio": (
+                    round(citations_count / total_publications, 2)
+                    if total_publications > 0
+                    else 0
+                ),
             }
         )
 
@@ -80,7 +71,14 @@ def main():
     # Write results to CSV
     try:
         with open(OUTPUT_FILE, "w", newline="") as csvfile:
-            fieldnames = ["rank", "country_code", "country", "total_publications", "citation_count", "ratio"]
+            fieldnames = [
+                "rank",
+                "country_code",
+                "country",
+                "total_publications",
+                "citation_count",
+                "ratio",
+            ]
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)

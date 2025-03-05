@@ -1,0 +1,441 @@
+publication_year,subfield_id,subfield_display_name,count,citation_count,country_code,total,percentage
+2024,subfields/1707,Computer Vision and Pattern Recognition,483,239,BR,5167,9.347784013934584
+2024,subfields/1710,Information Systems,1932,399,BR,5167,37.391136055738336
+2024,subfields/1703,Computational Theory and Mathematics,282,250,BR,5167,5.457712405651248
+2024,subfields/1702,Artificial Intelligence,1186,709,BR,5167,22.95335784788078
+2024,subfields/1705,Computer Networks and Communications,550,345,BR,5167,10.644474550029031
+2024,subfields/1706,Computer Science Applications,286,121,BR,5167,5.535126766015096
+2024,subfields/1712,Software,48,28,BR,5167,0.9289723243661699
+2024,subfields/1711,Signal Processing,131,102,BR,5167,2.5353203019160055
+2024,subfields/1709,Human-Computer Interaction,168,109,BR,5167,3.251403135281595
+2024,subfields/1708,Hardware and Architecture,74,10,BR,5167,1.4321656667311786
+2024,subfields/1704,Computer Graphics and Computer-Aided Design,27,13,BR,5167,0.5225469324559705
+2023,subfields/1707,Computer Vision and Pattern Recognition,623,1111,BR,8012,7.775836245631552
+2023,subfields/1710,Information Systems,3563,2330,BR,8012,44.47079380928607
+2023,subfields/1703,Computational Theory and Mathematics,491,884,BR,8012,6.128307538691962
+2023,subfields/1702,Artificial Intelligence,1613,3365,BR,8012,20.132301547678484
+2023,subfields/1705,Computer Networks and Communications,710,1370,BR,8012,8.861707438841737
+2023,subfields/1706,Computer Science Applications,377,684,BR,8012,4.705441837244133
+2023,subfields/1712,Software,76,81,BR,8012,0.9485771342985523
+2023,subfields/1711,Signal Processing,229,474,BR,8012,2.858212680978532
+2023,subfields/1709,Human-Computer Interaction,213,258,BR,8012,2.658512231652521
+2023,subfields/1708,Hardware and Architecture,87,161,BR,8012,1.0858711932101848
+2023,subfields/1704,Computer Graphics and Computer-Aided Design,30,26,BR,8012,0.37443834248627056
+2022,subfields/1707,Computer Vision and Pattern Recognition,643,2437,BR,7859,8.18170250668024
+2022,subfields/1710,Information Systems,3361,5170,BR,7859,42.766255248759386
+2022,subfields/1703,Computational Theory and Mathematics,507,1952,BR,7859,6.451202443058913
+2022,subfields/1702,Artificial Intelligence,1640,6690,BR,7859,20.8677948848454
+2022,subfields/1705,Computer Networks and Communications,761,2597,BR,7859,9.683165797175212
+2022,subfields/1706,Computer Science Applications,307,870,BR,7859,3.9063494083216694
+2022,subfields/1712,Software,58,129,BR,7859,0.7380073800738007
+2022,subfields/1711,Signal Processing,218,894,BR,7859,2.773889807863596
+2022,subfields/1709,Human-Computer Interaction,236,2189,BR,7859,3.0029265809899477
+2022,subfields/1708,Hardware and Architecture,95,202,BR,7859,1.2088051915001907
+2022,subfields/1704,Computer Graphics and Computer-Aided Design,33,42,BR,7859,0.41990075073164523
+2021,subfields/1707,Computer Vision and Pattern Recognition,789,5365,BR,8602,9.172285514996513
+2021,subfields/1710,Information Systems,3535,8160,BR,8602,41.09509416414787
+2021,subfields/1703,Computational Theory and Mathematics,502,3295,BR,8602,5.83585212741223
+2021,subfields/1702,Artificial Intelligence,1778,10761,BR,8602,20.66961171820507
+2021,subfields/1705,Computer Networks and Communications,891,5036,BR,8602,10.358056265984656
+2021,subfields/1706,Computer Science Applications,382,2443,BR,8602,4.440827714485004
+2021,subfields/1712,Software,89,373,BR,8602,1.0346431062543595
+2021,subfields/1711,Signal Processing,231,1056,BR,8602,2.6854219948849107
+2021,subfields/1709,Human-Computer Interaction,228,1038,BR,8602,2.65054638456173
+2021,subfields/1708,Hardware and Architecture,140,465,BR,8602,1.6275284817484308
+2021,subfields/1704,Computer Graphics and Computer-Aided Design,37,193,BR,8602,0.43013252731922813
+2020,subfields/1707,Computer Vision and Pattern Recognition,826,7855,BR,8898,9.282984940436053
+2020,subfields/1710,Information Systems,3568,16309,BR,8898,40.098898628905374
+2020,subfields/1703,Computational Theory and Mathematics,476,4654,BR,8898,5.349516745336031
+2020,subfields/1702,Artificial Intelligence,1883,17243,BR,8898,21.16205888963812
+2020,subfields/1705,Computer Networks and Communications,976,7601,BR,8898,10.96875702405035
+2020,subfields/1706,Computer Science Applications,367,2260,BR,8898,4.124522364576309
+2020,subfields/1712,Software,107,726,BR,8898,1.202517419644864
+2020,subfields/1711,Signal Processing,250,1923,BR,8898,2.809620139357159
+2020,subfields/1709,Human-Computer Interaction,246,1073,BR,8898,2.7646662171274445
+2020,subfields/1708,Hardware and Architecture,160,517,BR,8898,1.798156889188582
+2020,subfields/1704,Computer Graphics and Computer-Aided Design,39,141,BR,8898,0.4383007417397168
+2019,subfields/1707,Computer Vision and Pattern Recognition,906,10355,BR,8150,11.116564417177914
+2019,subfields/1710,Information Systems,2650,9903,BR,8150,32.515337423312886
+2019,subfields/1703,Computational Theory and Mathematics,453,3822,BR,8150,5.558282208588957
+2019,subfields/1702,Artificial Intelligence,1773,17061,BR,8150,21.754601226993863
+2019,subfields/1705,Computer Networks and Communications,1107,11634,BR,8150,13.582822085889571
+2019,subfields/1706,Computer Science Applications,421,2425,BR,8150,5.1656441717791415
+2019,subfields/1712,Software,110,855,BR,8150,1.3496932515337423
+2019,subfields/1711,Signal Processing,285,1781,BR,8150,3.496932515337423
+2019,subfields/1709,Human-Computer Interaction,267,1654,BR,8150,3.2760736196319016
+2019,subfields/1708,Hardware and Architecture,124,842,BR,8150,1.5214723926380367
+2019,subfields/1704,Computer Graphics and Computer-Aided Design,54,268,BR,8150,0.6625766871165644
+2018,subfields/1707,Computer Vision and Pattern Recognition,734,8384,BR,7824,9.381390593047033
+2018,subfields/1710,Information Systems,2673,11447,BR,7824,34.16411042944785
+2018,subfields/1703,Computational Theory and Mathematics,506,4704,BR,7824,6.467280163599182
+2018,subfields/1702,Artificial Intelligence,1780,17657,BR,7824,22.750511247443765
+2018,subfields/1705,Computer Networks and Communications,1017,11318,BR,7824,12.998466257668712
+2018,subfields/1706,Computer Science Applications,334,3191,BR,7824,4.268916155419223
+2018,subfields/1712,Software,87,1016,BR,7824,1.111963190184049
+2018,subfields/1711,Signal Processing,269,2479,BR,7824,3.4381390593047034
+2018,subfields/1709,Human-Computer Interaction,218,1590,BR,7824,2.7862985685071577
+2018,subfields/1708,Hardware and Architecture,160,747,BR,7824,2.044989775051125
+2018,subfields/1704,Computer Graphics and Computer-Aided Design,46,232,BR,7824,0.5879345603271984
+2017,subfields/1707,Computer Vision and Pattern Recognition,656,7070,BR,6932,9.46335833814195
+2017,subfields/1710,Information Systems,2444,10692,BR,6932,35.25678015002885
+2017,subfields/1703,Computational Theory and Mathematics,425,3548,BR,6932,6.130986728216965
+2017,subfields/1702,Artificial Intelligence,1508,16771,BR,6932,21.75418349682631
+2017,subfields/1705,Computer Networks and Communications,844,8800,BR,6932,12.175418349682632
+2017,subfields/1706,Computer Science Applications,311,2533,BR,6932,4.486439699942297
+2017,subfields/1712,Software,120,900,BR,6932,1.7311021350259663
+2017,subfields/1711,Signal Processing,234,1949,BR,6932,3.375649163300635
+2017,subfields/1709,Human-Computer Interaction,206,1470,BR,6932,2.971725331794576
+2017,subfields/1708,Hardware and Architecture,132,832,BR,6932,1.9042123485285631
+2017,subfields/1704,Computer Graphics and Computer-Aided Design,52,402,BR,6932,0.7501442585112521
+2016,subfields/1707,Computer Vision and Pattern Recognition,627,7601,BR,6647,9.432826839175569
+2016,subfields/1710,Information Systems,2288,21794,BR,6647,34.42154355348278
+2016,subfields/1703,Computational Theory and Mathematics,380,4230,BR,6647,5.716864751015495
+2016,subfields/1702,Artificial Intelligence,1462,17229,BR,6647,21.994884910485936
+2016,subfields/1705,Computer Networks and Communications,824,7762,BR,6647,12.396569881149391
+2016,subfields/1706,Computer Science Applications,287,2319,BR,6647,4.317737325109071
+2016,subfields/1712,Software,121,1013,BR,6647,1.8203700917707237
+2016,subfields/1711,Signal Processing,241,3438,BR,6647,3.6256958026177224
+2016,subfields/1709,Human-Computer Interaction,213,1675,BR,6647,3.204453136753423
+2016,subfields/1708,Hardware and Architecture,157,801,BR,6647,2.361967805024823
+2016,subfields/1704,Computer Graphics and Computer-Aided Design,47,240,BR,6647,0.7070859034150745
+2015,subfields/1707,Computer Vision and Pattern Recognition,697,6891,BR,6258,11.137743688079258
+2015,subfields/1710,Information Systems,1873,9239,BR,6258,29.929689996804093
+2015,subfields/1703,Computational Theory and Mathematics,448,9855,BR,6258,7.158836689038031
+2015,subfields/1702,Artificial Intelligence,1426,15904,BR,6258,22.786832853946947
+2015,subfields/1705,Computer Networks and Communications,829,8273,BR,6258,13.247043783956535
+2015,subfields/1706,Computer Science Applications,265,2570,BR,6258,4.234579737935443
+2015,subfields/1712,Software,101,640,BR,6258,1.613934164269735
+2015,subfields/1711,Signal Processing,255,3063,BR,6258,4.074784276126557
+2015,subfields/1709,Human-Computer Interaction,177,1190,BR,6258,2.828379674017258
+2015,subfields/1708,Hardware and Architecture,144,885,BR,6258,2.3010546500479387
+2015,subfields/1704,Computer Graphics and Computer-Aided Design,43,233,BR,6258,0.6871204857782038
+2024,subfields/1707,Computer Vision and Pattern Recognition,24853,26534,CN,89193,27.86429428318366
+2024,subfields/1710,Information Systems,8746,6273,CN,89193,9.805702241207271
+2024,subfields/1703,Computational Theory and Mathematics,4503,5349,CN,89193,5.0486024688036055
+2024,subfields/1702,Artificial Intelligence,29913,32248,CN,89193,33.53738522081329
+2024,subfields/1705,Computer Networks and Communications,11484,8793,CN,89193,12.875449867142041
+2024,subfields/1706,Computer Science Applications,1082,1094,CN,89193,1.2130996827105267
+2024,subfields/1712,Software,532,363,CN,89193,0.5964593634029576
+2024,subfields/1711,Signal Processing,3966,2843,CN,89193,4.446537284316034
+2024,subfields/1709,Human-Computer Interaction,1483,946,CN,89193,1.6626865336965904
+2024,subfields/1708,Hardware and Architecture,1142,399,CN,89193,1.2803695357258977
+2024,subfields/1704,Computer Graphics and Computer-Aided Design,1489,1089,CN,89193,1.6694135189981276
+2023,subfields/1707,Computer Vision and Pattern Recognition,29186,144245,CN,101096,28.86958930125821
+2023,subfields/1710,Information Systems,10153,28813,CN,101096,10.042929492759358
+2023,subfields/1703,Computational Theory and Mathematics,5155,23278,CN,101096,5.0991137136978715
+2023,subfields/1702,Artificial Intelligence,33655,128574,CN,101096,33.29014006488882
+2023,subfields/1705,Computer Networks and Communications,12690,42539,CN,101096,12.552425417425022
+2023,subfields/1706,Computer Science Applications,1257,4202,CN,101096,1.2433726359104218
+2023,subfields/1712,Software,481,1169,CN,101096,0.475785392102556
+2023,subfields/1711,Signal Processing,4117,11589,CN,101096,4.0723668592229165
+2023,subfields/1709,Human-Computer Interaction,1612,6466,CN,101096,1.5945240167761336
+2023,subfields/1708,Hardware and Architecture,946,1538,CN,101096,0.9357442430956714
+2023,subfields/1704,Computer Graphics and Computer-Aided Design,1844,1840,CN,101096,1.824008862863021
+2022,subfields/1707,Computer Vision and Pattern Recognition,25474,252743,CN,91130,27.953473060463075
+2022,subfields/1710,Information Systems,9850,62891,CN,91130,10.808734774497971
+2022,subfields/1703,Computational Theory and Mathematics,4930,38511,CN,91130,5.409854054647207
+2022,subfields/1702,Artificial Intelligence,29259,231028,CN,91130,32.10688028091737
+2022,subfields/1705,Computer Networks and Communications,12225,81587,CN,91130,13.414901788653571
+2022,subfields/1706,Computer Science Applications,1191,8066,CN,91130,1.3069241742565565
+2022,subfields/1712,Software,505,2326,CN,91130,0.5541534072204543
+2022,subfields/1711,Signal Processing,3890,22129,CN,91130,4.2686272358169655
+2022,subfields/1709,Human-Computer Interaction,1352,11288,CN,91130,1.4835948644793153
+2022,subfields/1708,Hardware and Architecture,774,2825,CN,91130,0.8493361132448151
+2022,subfields/1704,Computer Graphics and Computer-Aided Design,1680,4268,CN,91130,1.8435202458026996
+2021,subfields/1707,Computer Vision and Pattern Recognition,21973,349762,CN,78884,27.85482480604432
+2021,subfields/1710,Information Systems,8590,86253,CN,78884,10.889407230870646
+2021,subfields/1703,Computational Theory and Mathematics,4291,54740,CN,78884,5.439632878657269
+2021,subfields/1702,Artificial Intelligence,24812,315856,CN,78884,31.45378023426804
+2021,subfields/1705,Computer Networks and Communications,10966,119724,CN,78884,13.901424877034632
+2021,subfields/1706,Computer Science Applications,1082,10441,CN,78884,1.3716342984635668
+2021,subfields/1712,Software,478,2799,CN,78884,0.6059530449774352
+2021,subfields/1711,Signal Processing,3414,29948,CN,78884,4.327873840068961
+2021,subfields/1709,Human-Computer Interaction,1080,9675,CN,78884,1.3690989300745398
+2021,subfields/1708,Hardware and Architecture,724,3890,CN,78884,0.917803356827747
+2021,subfields/1704,Computer Graphics and Computer-Aided Design,1474,4157,CN,78884,1.8685665027128442
+2020,subfields/1707,Computer Vision and Pattern Recognition,17864,405892,CN,65674,27.2010232359838
+2020,subfields/1710,Information Systems,7378,114706,CN,65674,11.234278405457259
+2020,subfields/1703,Computational Theory and Mathematics,3769,70552,CN,65674,5.73895301032372
+2020,subfields/1702,Artificial Intelligence,19119,360276,CN,65674,29.11197734263179
+2020,subfields/1705,Computer Networks and Communications,10668,174607,CN,65674,16.243871242805373
+2020,subfields/1706,Computer Science Applications,888,12090,CN,65674,1.352133264305509
+2020,subfields/1712,Software,419,3387,CN,65674,0.6379998172792887
+2020,subfields/1711,Signal Processing,3116,38451,CN,65674,4.744647805828791
+2020,subfields/1709,Human-Computer Interaction,867,10137,CN,65674,1.3201571398117977
+2020,subfields/1708,Hardware and Architecture,672,6368,CN,65674,1.0232359837987637
+2020,subfields/1704,Computer Graphics and Computer-Aided Design,914,4284,CN,65674,1.3917227517739135
+2019,subfields/1707,Computer Vision and Pattern Recognition,17043,437629,CN,60186,28.317216628451796
+2019,subfields/1710,Information Systems,6247,115792,CN,60186,10.379490246901273
+2019,subfields/1703,Computational Theory and Mathematics,3476,58108,CN,60186,5.775429501877513
+2019,subfields/1702,Artificial Intelligence,16238,349437,CN,60186,26.979696274881203
+2019,subfields/1705,Computer Networks and Communications,10664,193948,CN,60186,17.71840627388429
+2019,subfields/1706,Computer Science Applications,821,13488,CN,60186,1.3641046090452928
+2019,subfields/1712,Software,374,4518,CN,60186,0.6214069717209982
+2019,subfields/1711,Signal Processing,3284,41323,CN,60186,5.456418436181171
+2019,subfields/1709,Human-Computer Interaction,790,11148,CN,60186,1.312597614063071
+2019,subfields/1708,Hardware and Architecture,693,6733,CN,60186,1.1514305652477321
+2019,subfields/1704,Computer Graphics and Computer-Aided Design,556,2262,CN,60186,0.9238028777456551
+2018,subfields/1707,Computer Vision and Pattern Recognition,14147,380949,CN,52683,26.853064555928857
+2018,subfields/1710,Information Systems,5935,102342,CN,52683,11.265493612740354
+2018,subfields/1703,Computational Theory and Mathematics,3171,58447,CN,52683,6.019019418028586
+2018,subfields/1702,Artificial Intelligence,13271,288339,CN,52683,25.190289087561453
+2018,subfields/1705,Computer Networks and Communications,9915,215352,CN,52683,18.820112749843403
+2018,subfields/1706,Computer Science Applications,711,12033,CN,52683,1.3495814589146404
+2018,subfields/1712,Software,389,5684,CN,52683,0.7383786041037905
+2018,subfields/1711,Signal Processing,2932,40010,CN,52683,5.5653626407000365
+2018,subfields/1709,Human-Computer Interaction,677,10945,CN,52683,1.2850445115122524
+2018,subfields/1708,Hardware and Architecture,796,7177,CN,52683,1.51092382742061
+2018,subfields/1704,Computer Graphics and Computer-Aided Design,739,1992,CN,52683,1.4027295332460186
+2017,subfields/1707,Computer Vision and Pattern Recognition,11560,321381,CN,44435,26.0155282997637
+2017,subfields/1710,Information Systems,5211,77273,CN,44435,11.727242038933273
+2017,subfields/1703,Computational Theory and Mathematics,2870,59182,CN,44435,6.458872510408462
+2017,subfields/1702,Artificial Intelligence,10465,233680,CN,44435,23.55125464161134
+2017,subfields/1705,Computer Networks and Communications,8956,167681,CN,44435,20.155282997637
+2017,subfields/1706,Computer Science Applications,584,11692,CN,44435,1.314279284347924
+2017,subfields/1712,Software,342,3317,CN,44435,0.7696635535051198
+2017,subfields/1711,Signal Processing,2549,37794,CN,44435,5.736468999662428
+2017,subfields/1709,Human-Computer Interaction,522,8695,CN,44435,1.1747496342972883
+2017,subfields/1708,Hardware and Architecture,755,6428,CN,44435,1.6991110611004838
+2017,subfields/1704,Computer Graphics and Computer-Aided Design,621,2348,CN,44435,1.3975469787329808
+2016,subfields/1707,Computer Vision and Pattern Recognition,10003,300521,CN,41764,23.95124988027967
+2016,subfields/1710,Information Systems,5449,79892,CN,41764,13.047121923187435
+2016,subfields/1703,Computational Theory and Mathematics,2879,52046,CN,41764,6.893496791495067
+2016,subfields/1702,Artificial Intelligence,9555,184737,CN,41764,22.878555693899052
+2016,subfields/1705,Computer Networks and Communications,8603,144204,CN,41764,20.599080547840245
+2016,subfields/1706,Computer Science Applications,451,9554,CN,41764,1.0798774063786993
+2016,subfields/1712,Software,335,4016,CN,41764,0.802126233119433
+2016,subfields/1711,Signal Processing,2548,31548,CN,41764,6.100948185039747
+2016,subfields/1709,Human-Computer Interaction,468,6179,CN,41764,1.120582319701178
+2016,subfields/1708,Hardware and Architecture,796,6354,CN,41764,1.9059477061584138
+2016,subfields/1704,Computer Graphics and Computer-Aided Design,677,2164,CN,41764,1.621013312901063
+2015,subfields/1707,Computer Vision and Pattern Recognition,10684,248966,CN,49055,21.779635103455306
+2015,subfields/1710,Information Systems,9447,50402,CN,49055,19.257975741514628
+2015,subfields/1703,Computational Theory and Mathematics,3122,42973,CN,49055,6.364284986239935
+2015,subfields/1702,Artificial Intelligence,10910,163597,CN,49055,22.240342472734685
+2015,subfields/1705,Computer Networks and Communications,9215,130565,CN,49055,18.785037203139336
+2015,subfields/1706,Computer Science Applications,423,7224,CN,49055,0.8622974212618489
+2015,subfields/1712,Software,397,3291,CN,49055,0.8092956885128937
+2015,subfields/1711,Signal Processing,2535,30609,CN,49055,5.167668943023138
+2015,subfields/1709,Human-Computer Interaction,464,4387,CN,49055,0.9458770767505861
+2015,subfields/1708,Hardware and Architecture,852,7408,CN,49055,1.7368260116196104
+2015,subfields/1704,Computer Graphics and Computer-Aided Design,1006,2704,CN,49055,2.050759351748038
+2024,subfields/1707,Computer Vision and Pattern Recognition,5904,7623,US,41474,14.235424603365965
+2024,subfields/1710,Information Systems,5132,4967,US,41474,12.374017456719873
+2024,subfields/1703,Computational Theory and Mathematics,2885,2970,US,41474,6.956165308385977
+2024,subfields/1702,Artificial Intelligence,15179,26336,US,41474,36.59883300380962
+2024,subfields/1705,Computer Networks and Communications,4786,3245,US,41474,11.539759849544293
+2024,subfields/1706,Computer Science Applications,2106,1968,US,41474,5.077880117664078
+2024,subfields/1712,Software,460,374,US,41474,1.1091286106958576
+2024,subfields/1711,Signal Processing,1760,1542,US,41474,4.243622510488499
+2024,subfields/1709,Human-Computer Interaction,1544,1254,US,41474,3.722814293292183
+2024,subfields/1708,Hardware and Architecture,1231,636,US,41474,2.9681246081882624
+2024,subfields/1704,Computer Graphics and Computer-Aided Design,487,714,US,41474,1.1742296378453971
+2023,subfields/1707,Computer Vision and Pattern Recognition,7053,50982,US,47742,14.773155711951741
+2023,subfields/1710,Information Systems,6268,19454,US,47742,13.128901177160571
+2023,subfields/1703,Computational Theory and Mathematics,3540,12796,US,47742,7.414854844790749
+2023,subfields/1702,Artificial Intelligence,18339,98735,US,47742,38.41271836119141
+2023,subfields/1705,Computer Networks and Communications,5129,14365,US,47742,10.743161157890327
+2023,subfields/1706,Computer Science Applications,1842,7869,US,47742,3.8582380294080685
+2023,subfields/1712,Software,444,2790,US,47742,0.9299987432449416
+2023,subfields/1711,Signal Processing,1852,6461,US,47742,3.8791839470487197
+2023,subfields/1709,Human-Computer Interaction,1521,7170,US,47742,3.1858740731431445
+2023,subfields/1708,Hardware and Architecture,1339,2647,US,47742,2.804658372083281
+2023,subfields/1704,Computer Graphics and Computer-Aided Design,415,2820,US,47742,0.8692555820870511
+2022,subfields/1707,Computer Vision and Pattern Recognition,6832,102188,US,45495,15.017034838993295
+2022,subfields/1710,Information Systems,6234,36611,US,45495,13.702604681833169
+2022,subfields/1703,Computational Theory and Mathematics,3384,27704,US,45495,7.4381800197823935
+2022,subfields/1702,Artificial Intelligence,16601,171574,US,45495,36.48972414551049
+2022,subfields/1705,Computer Networks and Communications,5024,30333,US,45495,11.042971755137927
+2022,subfields/1706,Computer Science Applications,1785,9534,US,45495,3.9235080778107485
+2022,subfields/1712,Software,443,2421,US,45495,0.9737333772942081
+2022,subfields/1711,Signal Processing,1839,12306,US,45495,4.042202439828553
+2022,subfields/1709,Human-Computer Interaction,1506,15681,US,45495,3.3102538740520937
+2022,subfields/1708,Hardware and Architecture,1453,6252,US,45495,3.1937575557753597
+2022,subfields/1704,Computer Graphics and Computer-Aided Design,394,4529,US,45495,0.8660292339817564
+2021,subfields/1707,Computer Vision and Pattern Recognition,7814,164903,US,50722,15.405543945428018
+2021,subfields/1710,Information Systems,6703,67342,US,50722,13.215172903276684
+2021,subfields/1703,Computational Theory and Mathematics,3694,39224,US,50722,7.2828358503213595
+2021,subfields/1702,Artificial Intelligence,18983,319364,US,50722,37.42557470131304
+2021,subfields/1705,Computer Networks and Communications,5781,54270,US,50722,11.397421237332912
+2021,subfields/1706,Computer Science Applications,1815,18068,US,50722,3.57832893024723
+2021,subfields/1712,Software,460,3113,US,50722,0.9069043018808407
+2021,subfields/1711,Signal Processing,2079,26360,US,50722,4.098813138283191
+2021,subfields/1709,Human-Computer Interaction,1440,19565,US,50722,2.83900477110524
+2021,subfields/1708,Hardware and Architecture,1530,11487,US,50722,3.016442569299318
+2021,subfields/1704,Computer Graphics and Computer-Aided Design,423,5420,US,50722,0.8339576515121643
+2020,subfields/1707,Computer Vision and Pattern Recognition,7269,242022,US,49678,14.632231571319295
+2020,subfields/1710,Information Systems,7171,103011,US,49678,14.434961149804742
+2020,subfields/1703,Computational Theory and Mathematics,3737,67106,US,49678,7.522444542855992
+2020,subfields/1702,Artificial Intelligence,16603,413546,US,49678,33.42123273883812
+2020,subfields/1705,Computer Networks and Communications,6372,89331,US,49678,12.826603325415679
+2020,subfields/1706,Computer Science Applications,2452,27261,US,49678,4.935786464833528
+2020,subfields/1712,Software,489,4297,US,49678,0.9843391440879262
+2020,subfields/1711,Signal Processing,2100,30674,US,49678,4.227223318169009
+2020,subfields/1709,Human-Computer Interaction,1499,24957,US,49678,3.017432263778735
+2020,subfields/1708,Hardware and Architecture,1539,15348,US,49678,3.0979508031724303
+2020,subfields/1704,Computer Graphics and Computer-Aided Design,447,3906,US,49678,0.899794677724546
+2019,subfields/1707,Computer Vision and Pattern Recognition,7214,313853,US,47710,15.120519807168309
+2019,subfields/1710,Information Systems,6758,114429,US,47710,14.164745336407462
+2019,subfields/1703,Computational Theory and Mathematics,3591,54233,US,47710,7.526723957241669
+2019,subfields/1702,Artificial Intelligence,14736,493602,US,47710,30.886606581429472
+2019,subfields/1705,Computer Networks and Communications,7077,126385,US,47710,14.833368266610774
+2019,subfields/1706,Computer Science Applications,2016,31161,US,47710,4.225529239153217
+2019,subfields/1712,Software,497,7832,US,47710,1.041710333263467
+2019,subfields/1711,Signal Processing,2132,45718,US,47710,4.46866485013624
+2019,subfields/1709,Human-Computer Interaction,1487,30382,US,47710,3.1167470132047788
+2019,subfields/1708,Hardware and Architecture,1757,19651,US,47710,3.6826661077342275
+2019,subfields/1704,Computer Graphics and Computer-Aided Design,445,4415,US,47710,0.9327185076503878
+2018,subfields/1707,Computer Vision and Pattern Recognition,6902,368993,US,46325,14.899082568807339
+2018,subfields/1710,Information Systems,6338,128703,US,46325,13.681597409606045
+2018,subfields/1703,Computational Theory and Mathematics,3563,66279,US,46325,7.6913113869400975
+2018,subfields/1702,Artificial Intelligence,13679,561263,US,46325,29.528332433890984
+2018,subfields/1705,Computer Networks and Communications,7435,147068,US,46325,16.04964921748516
+2018,subfields/1706,Computer Science Applications,1856,30618,US,46325,4.006475984889368
+2018,subfields/1712,Software,561,9510,US,46325,1.2110091743119267
+2018,subfields/1711,Signal Processing,2271,55903,US,46325,4.902320561252024
+2018,subfields/1709,Human-Computer Interaction,1450,32107,US,46325,3.130059363194819
+2018,subfields/1708,Hardware and Architecture,1864,23012,US,46325,4.023745277927685
+2018,subfields/1704,Computer Graphics and Computer-Aided Design,406,5000,US,46325,0.8764166216945493
+2017,subfields/1707,Computer Vision and Pattern Recognition,6274,436923,US,43952,14.27466326902075
+2017,subfields/1710,Information Systems,6227,127108,US,43952,14.167728431015652
+2017,subfields/1703,Computational Theory and Mathematics,3495,64281,US,43952,7.951856570804513
+2017,subfields/1702,Artificial Intelligence,11630,506200,US,43952,26.460684382963233
+2017,subfields/1705,Computer Networks and Communications,7658,167318,US,43952,17.42355296687295
+2017,subfields/1706,Computer Science Applications,1811,42226,US,43952,4.1204040771751
+2017,subfields/1712,Software,568,8553,US,43952,1.292318893338187
+2017,subfields/1711,Signal Processing,2333,58554,US,43952,5.308063341827448
+2017,subfields/1709,Human-Computer Interaction,1334,31887,US,43952,3.035129231889334
+2017,subfields/1708,Hardware and Architecture,2171,33717,US,43952,4.9394794321077535
+2017,subfields/1704,Computer Graphics and Computer-Aided Design,451,5529,US,43952,1.0261194029850746
+2016,subfields/1707,Computer Vision and Pattern Recognition,5927,425901,US,42210,14.04169628050225
+2016,subfields/1710,Information Systems,6219,139568,US,42210,14.733475479744138
+2016,subfields/1703,Computational Theory and Mathematics,3660,71601,US,42210,8.67093105899076
+2016,subfields/1702,Artificial Intelligence,10766,430120,US,42210,25.50580431177446
+2016,subfields/1705,Computer Networks and Communications,7253,179717,US,42210,17.183131959251362
+2016,subfields/1706,Computer Science Applications,1797,41226,US,42210,4.25728500355366
+2016,subfields/1712,Software,576,10659,US,42210,1.3646055437100213
+2016,subfields/1711,Signal Processing,2080,46003,US,42210,4.927742241175077
+2016,subfields/1709,Human-Computer Interaction,1264,36033,US,42210,2.994551054252547
+2016,subfields/1708,Hardware and Architecture,2193,35044,US,42210,5.1954513148543
+2016,subfields/1704,Computer Graphics and Computer-Aided Design,475,5579,US,42210,1.125325752191424
+2015,subfields/1707,Computer Vision and Pattern Recognition,5920,411155,US,43084,13.740599758611086
+2015,subfields/1710,Information Systems,6529,127183,US,43084,15.15411753783307
+2015,subfields/1703,Computational Theory and Mathematics,3579,78732,US,43084,8.307028131092748
+2015,subfields/1702,Artificial Intelligence,11060,417546,US,43084,25.6707826571349
+2015,subfields/1705,Computer Networks and Communications,7440,164469,US,43084,17.268591588524743
+2015,subfields/1706,Computer Science Applications,1824,47346,US,43084,4.233590195896388
+2015,subfields/1712,Software,597,11128,US,43084,1.3856652121437192
+2015,subfields/1711,Signal Processing,2102,56652,US,43084,4.878841333209545
+2015,subfields/1709,Human-Computer Interaction,1205,32144,US,43084,2.7968619441091818
+2015,subfields/1708,Hardware and Architecture,2293,40062,US,43084,5.322161359205273
+2015,subfields/1704,Computer Graphics and Computer-Aided Design,535,6068,US,43084,1.2417602822393463
+2024,subfields/1707,Computer Vision and Pattern Recognition,5651,3188,IN,32196,17.551869797490372
+2024,subfields/1710,Information Systems,5662,3605,IN,32196,17.58603553236427
+2024,subfields/1703,Computational Theory and Mathematics,1935,1797,IN,32196,6.010063361908312
+2024,subfields/1702,Artificial Intelligence,9169,7164,IN,32196,28.478693005342276
+2024,subfields/1705,Computer Networks and Communications,5918,4568,IN,32196,18.38116536215679
+2024,subfields/1706,Computer Science Applications,612,600,IN,32196,1.9008572493477451
+2024,subfields/1712,Software,159,75,IN,32196,0.4938501677226985
+2024,subfields/1711,Signal Processing,1617,722,IN,32196,5.022363026462914
+2024,subfields/1709,Human-Computer Interaction,866,540,IN,32196,2.689775127345012
+2024,subfields/1708,Hardware and Architecture,523,113,IN,32196,1.6244253944589389
+2024,subfields/1704,Computer Graphics and Computer-Aided Design,84,16,IN,32196,0.2609019754006709
+2023,subfields/1707,Computer Vision and Pattern Recognition,7165,17831,IN,38306,18.704641570511146
+2023,subfields/1710,Information Systems,7267,20005,IN,38306,18.970918393985276
+2023,subfields/1703,Computational Theory and Mathematics,2401,6278,IN,38306,6.267947580013574
+2023,subfields/1702,Artificial Intelligence,10289,31039,IN,38306,26.86002192867958
+2023,subfields/1705,Computer Networks and Communications,6887,21625,IN,38306,17.9789066986895
+2023,subfields/1706,Computer Science Applications,615,1780,IN,38306,1.605492612123427
+2023,subfields/1712,Software,178,266,IN,38306,0.4646791625332846
+2023,subfields/1711,Signal Processing,1940,3556,IN,38306,5.064480760194225
+2023,subfields/1709,Human-Computer Interaction,965,3168,IN,38306,2.5191875946326947
+2023,subfields/1708,Hardware and Architecture,487,636,IN,38306,1.2713413042343236
+2023,subfields/1704,Computer Graphics and Computer-Aided Design,112,101,IN,38306,0.2923823944029656
+2022,subfields/1707,Computer Vision and Pattern Recognition,6578,36137,IN,34302,19.176724389248438
+2022,subfields/1710,Information Systems,6428,34311,IN,34302,18.73943210308437
+2022,subfields/1703,Computational Theory and Mathematics,2270,10648,IN,34302,6.617689930616291
+2022,subfields/1702,Artificial Intelligence,8737,54461,IN,34302,25.47081802810332
+2022,subfields/1705,Computer Networks and Communications,6441,37772,IN,34302,18.777330767885257
+2022,subfields/1706,Computer Science Applications,562,3051,IN,34302,1.63838843216139
+2022,subfields/1712,Software,223,694,IN,34302,0.6501078654305871
+2022,subfields/1711,Signal Processing,1796,7122,IN,34302,5.235846306337823
+2022,subfields/1709,Human-Computer Interaction,669,6786,IN,34302,1.9503235962917613
+2022,subfields/1708,Hardware and Architecture,503,1460,IN,34302,1.4663867996035216
+2022,subfields/1704,Computer Graphics and Computer-Aided Design,95,159,IN,34302,0.2769517812372457
+2021,subfields/1707,Computer Vision and Pattern Recognition,6256,49207,IN,30348,20.614208514564385
+2021,subfields/1710,Information Systems,5174,41261,IN,30348,17.048899433241072
+2021,subfields/1703,Computational Theory and Mathematics,2141,17105,IN,30348,7.054830631343087
+2021,subfields/1702,Artificial Intelligence,7432,62487,IN,30348,24.489257941215236
+2021,subfields/1705,Computer Networks and Communications,6011,51228,IN,30348,19.806906550678793
+2021,subfields/1706,Computer Science Applications,500,3308,IN,30348,1.6475550283379463
+2021,subfields/1712,Software,241,938,IN,30348,0.7941215236588903
+2021,subfields/1711,Signal Processing,1486,9133,IN,30348,4.896533544220377
+2021,subfields/1709,Human-Computer Interaction,521,4052,IN,30348,1.71675233952814
+2021,subfields/1708,Hardware and Architecture,479,1911,IN,30348,1.5783577171477527
+2021,subfields/1704,Computer Graphics and Computer-Aided Design,107,328,IN,30348,0.35257677606432053
+2020,subfields/1707,Computer Vision and Pattern Recognition,5228,58804,IN,26229,19.93213618513859
+2020,subfields/1710,Information Systems,4525,51290,IN,26229,17.251896755499637
+2020,subfields/1703,Computational Theory and Mathematics,1882,24101,IN,26229,7.175264020740402
+2020,subfields/1702,Artificial Intelligence,6502,77999,IN,26229,24.789355293758817
+2020,subfields/1705,Computer Networks and Communications,5228,60421,IN,26229,19.93213618513859
+2020,subfields/1706,Computer Science Applications,357,4299,IN,26229,1.3610888710968776
+2020,subfields/1712,Software,221,907,IN,26229,0.8425788249647338
+2020,subfields/1711,Signal Processing,1372,11170,IN,26229,5.230851347744863
+2020,subfields/1709,Human-Computer Interaction,375,3627,IN,26229,1.4297152007320142
+2020,subfields/1708,Hardware and Architecture,460,3317,IN,26229,1.7537839795646042
+2020,subfields/1704,Computer Graphics and Computer-Aided Design,79,210,IN,26229,0.30119333562087763
+2019,subfields/1707,Computer Vision and Pattern Recognition,4647,52615,IN,23080,20.13431542461005
+2019,subfields/1710,Information Systems,3873,42444,IN,23080,16.780762564991335
+2019,subfields/1703,Computational Theory and Mathematics,1509,11470,IN,23080,6.538128249566724
+2019,subfields/1702,Artificial Intelligence,5205,64274,IN,23080,22.55199306759099
+2019,subfields/1705,Computer Networks and Communications,5177,61366,IN,23080,22.430675909878683
+2019,subfields/1706,Computer Science Applications,289,2343,IN,23080,1.252166377816291
+2019,subfields/1712,Software,240,1833,IN,23080,1.0398613518197575
+2019,subfields/1711,Signal Processing,1271,12946,IN,23080,5.506932409012132
+2019,subfields/1709,Human-Computer Interaction,341,3991,IN,23080,1.477469670710572
+2019,subfields/1708,Hardware and Architecture,476,3026,IN,23080,2.062391681109186
+2019,subfields/1704,Computer Graphics and Computer-Aided Design,52,140,IN,23080,0.22530329289428075
+2018,subfields/1707,Computer Vision and Pattern Recognition,4818,56710,IN,23519,20.485564862451636
+2018,subfields/1710,Information Systems,4053,39564,IN,23519,17.23287554742974
+2018,subfields/1703,Computational Theory and Mathematics,1460,13656,IN,23519,6.207746928015647
+2018,subfields/1702,Artificial Intelligence,5204,71273,IN,23519,22.126791105063994
+2018,subfields/1705,Computer Networks and Communications,5264,60146,IN,23519,22.381903992516687
+2018,subfields/1706,Computer Science Applications,293,2473,IN,23519,1.2458012670606744
+2018,subfields/1712,Software,264,1881,IN,23519,1.1224967047918704
+2018,subfields/1711,Signal Processing,1337,12047,IN,23519,5.684765508737617
+2018,subfields/1709,Human-Computer Interaction,296,3213,IN,23519,1.2585569114333093
+2018,subfields/1708,Hardware and Architecture,464,2590,IN,23519,1.972872996300863
+2018,subfields/1704,Computer Graphics and Computer-Aided Design,66,293,IN,23519,0.2806241761979676
+2017,subfields/1707,Computer Vision and Pattern Recognition,4298,69196,IN,21172,20.30039675042509
+2017,subfields/1710,Information Systems,3589,31146,IN,21172,16.951634233893824
+2017,subfields/1703,Computational Theory and Mathematics,1385,12111,IN,21172,6.541658794634422
+2017,subfields/1702,Artificial Intelligence,4374,55510,IN,21172,20.65936142074438
+2017,subfields/1705,Computer Networks and Communications,4908,60733,IN,21172,23.18156055167202
+2017,subfields/1706,Computer Science Applications,242,1852,IN,21172,1.143019081806159
+2017,subfields/1712,Software,276,2353,IN,21172,1.303608539580578
+2017,subfields/1711,Signal Processing,1256,10214,IN,21172,5.932363498960892
+2017,subfields/1709,Human-Computer Interaction,319,3384,IN,21172,1.5067069714717551
+2017,subfields/1708,Hardware and Architecture,470,3333,IN,21172,2.2199130927640276
+2017,subfields/1704,Computer Graphics and Computer-Aided Design,55,174,IN,21172,0.25977706404685436
+2016,subfields/1707,Computer Vision and Pattern Recognition,3925,44931,IN,19562,20.064410591964013
+2016,subfields/1710,Information Systems,3293,28942,IN,19562,16.833657090277068
+2016,subfields/1703,Computational Theory and Mathematics,1315,13574,IN,19562,6.7222165422758415
+2016,subfields/1702,Artificial Intelligence,3862,47520,IN,19562,19.742357632143953
+2016,subfields/1705,Computer Networks and Communications,4659,52883,IN,19562,23.816583171454862
+2016,subfields/1706,Computer Science Applications,202,1708,IN,19562,1.0326142521214599
+2016,subfields/1712,Software,281,2040,IN,19562,1.4364584398323281
+2016,subfields/1711,Signal Processing,1233,10254,IN,19562,6.303036499335446
+2016,subfields/1709,Human-Computer Interaction,276,3856,IN,19562,1.4108986811164503
+2016,subfields/1708,Hardware and Architecture,462,2480,IN,19562,2.3617217053471014
+2016,subfields/1704,Computer Graphics and Computer-Aided Design,54,374,IN,19562,0.2760453941314794
+2015,subfields/1707,Computer Vision and Pattern Recognition,3625,41770,IN,17537,20.670582197639277
+2015,subfields/1710,Information Systems,2746,25725,IN,17537,15.658322404059987
+2015,subfields/1703,Computational Theory and Mathematics,1234,12179,IN,17537,7.036551291554997
+2015,subfields/1702,Artificial Intelligence,3470,46853,IN,17537,19.786736614016082
+2015,subfields/1705,Computer Networks and Communications,4187,46231,IN,17537,23.875235216969834
+2015,subfields/1706,Computer Science Applications,175,2043,IN,17537,0.9978901750584478
+2015,subfields/1712,Software,275,1957,IN,17537,1.568113132234704
+2015,subfields/1711,Signal Processing,1095,9436,IN,17537,6.243941381080003
+2015,subfields/1709,Human-Computer Interaction,220,2538,IN,17537,1.254490505787763
+2015,subfields/1708,Hardware and Architecture,451,2950,IN,17537,2.571705536864914
+2015,subfields/1704,Computer Graphics and Computer-Aided Design,59,381,IN,17537,0.336431544733991
