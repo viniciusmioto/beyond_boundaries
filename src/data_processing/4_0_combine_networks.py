@@ -29,7 +29,8 @@ for subfield in mappings.SUBFIELDS_SHORT.keys():
             print(f"  File {filename} not found.")
     
     # Define the output filename
-    output_filename = f"{GRAPHS_PATH}/full/{subfield}_Full.gexf"
+    sanitized_subfield = subfield.replace(" ", "_")
+    output_filename = f"{GRAPHS_PATH}/full/{sanitized_subfield}.gexf"
     try:
         # Write the merged graph to a new GEXF file
         nx.write_gexf(full_graph, output_filename)

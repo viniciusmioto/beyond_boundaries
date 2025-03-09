@@ -86,3 +86,19 @@ COUNTRY_CODES = {
     "KR":"Republic of Korea",
     "AU":"Australia",
 }
+
+COUNTRY_PALLETE = {
+    "BR": "#0aad2d",
+    "US": "#184496",
+    "CN": "#df000a",
+    "IN": "#dea323",
+    "GB": "#c658de",
+    "CA": "#ED2577",
+    "FR": "#5fb3cf",
+    "NL": "#ff6f00",
+    "IT": "#82D1B5",
+    "DE": "#6c09ba",
+    "ES": "BDA80D",
+    "AU": "6876FF",
+    "Others": "#c0c0c0"
+}

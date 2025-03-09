@@ -1,0 +1,1010 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-03-06">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="label1" type="string" />
+      <attribute id="1" title="label2" type="string" />
+    </attributes>
+    <nodes>
+      <node id="A5074153759" label="A5074153759">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5044603981" label="A5044603981">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5034283584" label="A5034283584">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5019574907" label="A5019574907">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5040001106" label="A5040001106">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5079050160" label="A5079050160">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5019703320" label="A5019703320">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5100742778" label="A5100742778">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5085468355" label="A5085468355">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5109722769" label="A5109722769">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5100345572" label="A5100345572">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5037975948" label="A5037975948">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5059844298" label="A5059844298">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5076724354" label="A5076724354">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5078084229" label="A5078084229">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5086639283" label="A5086639283">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5037164975" label="A5037164975">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5068783649" label="A5068783649">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5100783022" label="A5100783022">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5029422809" label="A5029422809">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5045023056" label="A5045023056">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5002613601" label="A5002613601">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5001497491" label="A5001497491">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5003758796" label="A5003758796">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5026024135" label="A5026024135">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5026106169" label="A5026106169">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5044305127" label="A5044305127">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5061705012" label="A5061705012">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5019120524" label="A5019120524">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5038720756" label="A5038720756">
+        <attvalues>
+          <attvalue for="0" value="CA" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5068745057" label="A5068745057">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5005271320" label="A5005271320">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5027349812" label="A5027349812">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5065293119" label="A5065293119">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5017394784" label="A5017394784">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5055140116" label="A5055140116">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5075073386" label="A5075073386">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5064590368" label="A5064590368">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5077785532" label="A5077785532">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5042190945" label="A5042190945">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5069205282" label="A5069205282">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5009566890" label="A5009566890">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5006459374" label="A5006459374">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5029939520" label="A5029939520">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5112406442" label="A5112406442">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5076792725" label="A5076792725">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5046138085" label="A5046138085">
+        <attvalues>
+          <attvalue for="0" value="FR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5049200982" label="A5049200982">
+        <attvalues>
+          <attvalue for="0" value="FR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5081865452" label="A5081865452">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5031102526" label="A5031102526">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5084328318" label="A5084328318">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5075903232" label="A5075903232">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5100359776" label="A5100359776">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5068926891" label="A5068926891">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5066694652" label="A5066694652">
+        <attvalues>
+          <attvalue for="0" value="CN" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5062632118" label="A5062632118">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5081615506" label="A5081615506">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5058007277" label="A5058007277">
+        <attvalues>
+          <attvalue for="0" value="DE" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5102788205" label="A5102788205">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5032052316" label="A5032052316">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5009552803" label="A5009552803">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5109937287" label="A5109937287">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5065763808" label="A5065763808">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5110267715" label="A5110267715">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5036008220" label="A5036008220">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5084052362" label="A5084052362">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5065725754" label="A5065725754">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5019832813" label="A5019832813">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5113848781" label="A5113848781">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5048600662" label="A5048600662">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5005732609" label="A5005732609">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5009445541" label="A5009445541">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5007024554" label="A5007024554">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5108294835" label="A5108294835">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5001011609" label="A5001011609">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5101585155" label="A5101585155">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5022034656" label="A5022034656">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5020051846" label="A5020051846">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5103035066" label="A5103035066">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5000881869" label="A5000881869">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5034358951" label="A5034358951">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5030705284" label="A5030705284">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5031234692" label="A5031234692">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5072209387" label="A5072209387">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5023568144" label="A5023568144">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5044675588" label="A5044675588">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5078720144" label="A5078720144">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5105939383" label="A5105939383">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5047844105" label="A5047844105">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5017252085" label="A5017252085">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5103794363" label="A5103794363">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5113805157" label="A5113805157">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5045226432" label="A5045226432">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5089291101" label="A5089291101">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5088543547" label="A5088543547">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5078094938" label="A5078094938">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5049694823" label="A5049694823">
+        <attvalues>
+          <attvalue for="0" value="AR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5000264971" label="A5000264971">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5086065566" label="A5086065566">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5012252576" label="A5012252576">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5023182432" label="A5023182432">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5007800014" label="A5007800014">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5015621577" label="A5015621577">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5048445767" label="A5048445767">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5005344919" label="A5005344919">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5072627932" label="A5072627932">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5016699369" label="A5016699369">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5037165857" label="A5037165857">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5014487434" label="A5014487434">
+        <attvalues>
+          <attvalue for="0" value="Unknown" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5008300887" label="A5008300887">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5005416520" label="A5005416520">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5080024357" label="A5080024357">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5021593590" label="A5021593590">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5059881766" label="A5059881766">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5103834894" label="A5103834894">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5063700071" label="A5063700071">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5098434260" label="A5098434260">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5035797152" label="A5035797152">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5016608746" label="A5016608746">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5069582778" label="A5069582778">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5010589296" label="A5010589296">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5071161715" label="A5071161715">
+        <attvalues>
+          <attvalue for="0" value="IT" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5036792900" label="A5036792900">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5066296657" label="A5066296657">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5091522680" label="A5091522680">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5073998529" label="A5073998529">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5070850077" label="A5070850077">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5030717121" label="A5030717121">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5074542232" label="A5074542232">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5108424486" label="A5108424486">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5076410656" label="A5076410656">
+        <attvalues>
+          <attvalue for="0" value="US" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5083721768" label="A5083721768">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+      <node id="A5025591297" label="A5025591297">
+        <attvalues>
+          <attvalue for="0" value="BR" />
+          <attvalue for="1" value="Computer Graphics and Computer-Aided Design" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="A5074153759" target="A5044603981" id="0" weight="1" />
+      <edge source="A5044603981" target="A5034283584" id="1" weight="1" />
+      <edge source="A5044603981" target="A5019574907" id="2" weight="2" />
+      <edge source="A5044603981" target="A5040001106" id="3" weight="1" />
+      <edge source="A5044603981" target="A5059844298" id="4" weight="1" />
+      <edge source="A5034283584" target="A5019574907" id="5" weight="1" />
+      <edge source="A5034283584" target="A5040001106" id="6" weight="1" />
+      <edge source="A5019574907" target="A5040001106" id="7" weight="1" />
+      <edge source="A5019574907" target="A5059844298" id="8" weight="1" />
+      <edge source="A5079050160" target="A5019703320" id="9" weight="1" />
+      <edge source="A5079050160" target="A5100742778" id="10" weight="1" />
+      <edge source="A5079050160" target="A5085468355" id="11" weight="1" />
+      <edge source="A5079050160" target="A5109722769" id="12" weight="1" />
+      <edge source="A5079050160" target="A5100345572" id="13" weight="1" />
+      <edge source="A5079050160" target="A5037975948" id="14" weight="1" />
+      <edge source="A5019703320" target="A5100742778" id="15" weight="1" />
+      <edge source="A5019703320" target="A5085468355" id="16" weight="1" />
+      <edge source="A5019703320" target="A5109722769" id="17" weight="1" />
+      <edge source="A5019703320" target="A5100345572" id="18" weight="1" />
+      <edge source="A5019703320" target="A5037975948" id="19" weight="1" />
+      <edge source="A5100742778" target="A5085468355" id="20" weight="1" />
+      <edge source="A5100742778" target="A5109722769" id="21" weight="1" />
+      <edge source="A5100742778" target="A5100345572" id="22" weight="1" />
+      <edge source="A5100742778" target="A5037975948" id="23" weight="1" />
+      <edge source="A5085468355" target="A5109722769" id="24" weight="1" />
+      <edge source="A5085468355" target="A5100345572" id="25" weight="1" />
+      <edge source="A5085468355" target="A5037975948" id="26" weight="1" />
+      <edge source="A5109722769" target="A5100345572" id="27" weight="1" />
+      <edge source="A5109722769" target="A5037975948" id="28" weight="1" />
+      <edge source="A5100345572" target="A5037975948" id="29" weight="1" />
+      <edge source="A5076724354" target="A5078084229" id="30" weight="1" />
+      <edge source="A5076724354" target="A5086639283" id="31" weight="1" />
+      <edge source="A5078084229" target="A5086639283" id="32" weight="1" />
+      <edge source="A5086639283" target="A5009566890" id="33" weight="1" />
+      <edge source="A5086639283" target="A5006459374" id="34" weight="1" />
+      <edge source="A5037164975" target="A5068783649" id="35" weight="2" />
+      <edge source="A5068783649" target="A5055140116" id="36" weight="1" />
+      <edge source="A5068783649" target="A5075073386" id="37" weight="1" />
+      <edge source="A5100783022" target="A5029422809" id="38" weight="1" />
+      <edge source="A5100783022" target="A5045023056" id="39" weight="1" />
+      <edge source="A5100783022" target="A5002613601" id="40" weight="1" />
+      <edge source="A5029422809" target="A5045023056" id="41" weight="1" />
+      <edge source="A5029422809" target="A5002613601" id="42" weight="1" />
+      <edge source="A5045023056" target="A5002613601" id="43" weight="1" />
+      <edge source="A5001497491" target="A5003758796" id="44" weight="1" />
+      <edge source="A5026024135" target="A5026106169" id="45" weight="1" />
+      <edge source="A5026024135" target="A5044305127" id="46" weight="1" />
+      <edge source="A5026024135" target="A5061705012" id="47" weight="1" />
+      <edge source="A5026106169" target="A5044305127" id="48" weight="1" />
+      <edge source="A5026106169" target="A5061705012" id="49" weight="1" />
+      <edge source="A5044305127" target="A5061705012" id="50" weight="1" />
+      <edge source="A5019120524" target="A5038720756" id="51" weight="1" />
+      <edge source="A5019120524" target="A5068745057" id="52" weight="1" />
+      <edge source="A5038720756" target="A5068745057" id="53" weight="1" />
+      <edge source="A5005271320" target="A5027349812" id="54" weight="1" />
+      <edge source="A5005271320" target="A5065293119" id="55" weight="1" />
+      <edge source="A5005271320" target="A5017394784" id="56" weight="1" />
+      <edge source="A5027349812" target="A5065293119" id="57" weight="1" />
+      <edge source="A5027349812" target="A5017394784" id="58" weight="1" />
+      <edge source="A5065293119" target="A5017394784" id="59" weight="1" />
+      <edge source="A5055140116" target="A5075073386" id="60" weight="1" />
+      <edge source="A5064590368" target="A5077785532" id="61" weight="1" />
+      <edge source="A5064590368" target="A5042190945" id="62" weight="1" />
+      <edge source="A5064590368" target="A5069205282" id="63" weight="1" />
+      <edge source="A5077785532" target="A5042190945" id="64" weight="1" />
+      <edge source="A5077785532" target="A5069205282" id="65" weight="1" />
+      <edge source="A5042190945" target="A5069205282" id="66" weight="1" />
+      <edge source="A5009566890" target="A5006459374" id="67" weight="1" />
+      <edge source="A5029939520" target="A5112406442" id="68" weight="1" />
+      <edge source="A5029939520" target="A5076792725" id="69" weight="1" />
+      <edge source="A5029939520" target="A5046138085" id="70" weight="1" />
+      <edge source="A5029939520" target="A5049200982" id="71" weight="1" />
+      <edge source="A5112406442" target="A5076792725" id="72" weight="1" />
+      <edge source="A5112406442" target="A5046138085" id="73" weight="1" />
+      <edge source="A5112406442" target="A5049200982" id="74" weight="1" />
+      <edge source="A5076792725" target="A5046138085" id="75" weight="1" />
+      <edge source="A5076792725" target="A5049200982" id="76" weight="1" />
+      <edge source="A5046138085" target="A5049200982" id="77" weight="1" />
+      <edge source="A5046138085" target="A5108424486" id="78" weight="1" />
+      <edge source="A5046138085" target="A5047844105" id="79" weight="1" />
+      <edge source="A5046138085" target="A5076410656" id="80" weight="1" />
+      <edge source="A5081865452" target="A5031102526" id="81" weight="1" />
+      <edge source="A5081865452" target="A5084328318" id="82" weight="1" />
+      <edge source="A5031102526" target="A5084328318" id="83" weight="1" />
+      <edge source="A5075903232" target="A5100359776" id="84" weight="1" />
+      <edge source="A5075903232" target="A5068926891" id="85" weight="1" />
+      <edge source="A5075903232" target="A5066694652" id="86" weight="1" />
+      <edge source="A5100359776" target="A5068926891" id="87" weight="1" />
+      <edge source="A5100359776" target="A5066694652" id="88" weight="1" />
+      <edge source="A5068926891" target="A5066694652" id="89" weight="1" />
+      <edge source="A5062632118" target="A5081615506" id="90" weight="1" />
+      <edge source="A5062632118" target="A5058007277" id="91" weight="1" />
+      <edge source="A5081615506" target="A5058007277" id="92" weight="1" />
+      <edge source="A5102788205" target="A5032052316" id="93" weight="1" />
+      <edge source="A5102788205" target="A5009552803" id="94" weight="1" />
+      <edge source="A5032052316" target="A5009552803" id="95" weight="1" />
+      <edge source="A5109937287" target="A5065763808" id="96" weight="1" />
+      <edge source="A5109937287" target="A5110267715" id="97" weight="1" />
+      <edge source="A5065763808" target="A5110267715" id="98" weight="1" />
+      <edge source="A5036008220" target="A5084052362" id="99" weight="1" />
+      <edge source="A5036008220" target="A5065725754" id="100" weight="1" />
+      <edge source="A5084052362" target="A5065725754" id="101" weight="1" />
+      <edge source="A5019832813" target="A5113848781" id="102" weight="1" />
+      <edge source="A5019832813" target="A5048600662" id="103" weight="1" />
+      <edge source="A5019832813" target="A5005732609" id="104" weight="1" />
+      <edge source="A5019832813" target="A5009445541" id="105" weight="1" />
+      <edge source="A5019832813" target="A5007024554" id="106" weight="1" />
+      <edge source="A5019832813" target="A5108294835" id="107" weight="1" />
+      <edge source="A5113848781" target="A5048600662" id="108" weight="1" />
+      <edge source="A5113848781" target="A5005732609" id="109" weight="1" />
+      <edge source="A5113848781" target="A5009445541" id="110" weight="1" />
+      <edge source="A5113848781" target="A5007024554" id="111" weight="1" />
+      <edge source="A5113848781" target="A5108294835" id="112" weight="1" />
+      <edge source="A5048600662" target="A5005732609" id="113" weight="1" />
+      <edge source="A5048600662" target="A5009445541" id="114" weight="1" />
+      <edge source="A5048600662" target="A5007024554" id="115" weight="1" />
+      <edge source="A5048600662" target="A5108294835" id="116" weight="1" />
+      <edge source="A5005732609" target="A5009445541" id="117" weight="1" />
+      <edge source="A5005732609" target="A5007024554" id="118" weight="1" />
+      <edge source="A5005732609" target="A5108294835" id="119" weight="1" />
+      <edge source="A5009445541" target="A5007024554" id="120" weight="1" />
+      <edge source="A5009445541" target="A5108294835" id="121" weight="1" />
+      <edge source="A5007024554" target="A5108294835" id="122" weight="1" />
+      <edge source="A5001011609" target="A5101585155" id="123" weight="1" />
+      <edge source="A5001011609" target="A5022034656" id="124" weight="1" />
+      <edge source="A5101585155" target="A5022034656" id="125" weight="1" />
+      <edge source="A5103035066" target="A5000881869" id="126" weight="1" />
+      <edge source="A5034358951" target="A5030705284" id="127" weight="1" />
+      <edge source="A5034358951" target="A5031234692" id="128" weight="1" />
+      <edge source="A5034358951" target="A5072209387" id="129" weight="1" />
+      <edge source="A5030705284" target="A5031234692" id="130" weight="1" />
+      <edge source="A5030705284" target="A5072209387" id="131" weight="1" />
+      <edge source="A5031234692" target="A5072209387" id="132" weight="1" />
+      <edge source="A5023568144" target="A5044675588" id="133" weight="1" />
+      <edge source="A5078720144" target="A5105939383" id="134" weight="1" />
+      <edge source="A5078720144" target="A5047844105" id="135" weight="1" />
+      <edge source="A5105939383" target="A5047844105" id="136" weight="1" />
+      <edge source="A5047844105" target="A5108424486" id="137" weight="1" />
+      <edge source="A5047844105" target="A5076410656" id="138" weight="1" />
+      <edge source="A5017252085" target="A5103794363" id="139" weight="1" />
+      <edge source="A5113805157" target="A5045226432" id="140" weight="1" />
+      <edge source="A5113805157" target="A5089291101" id="141" weight="1" />
+      <edge source="A5045226432" target="A5089291101" id="142" weight="1" />
+      <edge source="A5088543547" target="A5078094938" id="143" weight="1" />
+      <edge source="A5088543547" target="A5049694823" id="144" weight="1" />
+      <edge source="A5088543547" target="A5000264971" id="145" weight="1" />
+      <edge source="A5088543547" target="A5086065566" id="146" weight="1" />
+      <edge source="A5078094938" target="A5049694823" id="147" weight="1" />
+      <edge source="A5078094938" target="A5000264971" id="148" weight="1" />
+      <edge source="A5078094938" target="A5086065566" id="149" weight="1" />
+      <edge source="A5049694823" target="A5000264971" id="150" weight="1" />
+      <edge source="A5049694823" target="A5086065566" id="151" weight="1" />
+      <edge source="A5000264971" target="A5086065566" id="152" weight="1" />
+      <edge source="A5012252576" target="A5023182432" id="153" weight="1" />
+      <edge source="A5007800014" target="A5015621577" id="154" weight="1" />
+      <edge source="A5048445767" target="A5005344919" id="155" weight="1" />
+      <edge source="A5048445767" target="A5072627932" id="156" weight="1" />
+      <edge source="A5005344919" target="A5072627932" id="157" weight="1" />
+      <edge source="A5016699369" target="A5037165857" id="158" weight="1" />
+      <edge source="A5016699369" target="A5014487434" id="159" weight="1" />
+      <edge source="A5037165857" target="A5014487434" id="160" weight="1" />
+      <edge source="A5008300887" target="A5005416520" id="161" weight="1" />
+      <edge source="A5008300887" target="A5080024357" id="162" weight="1" />
+      <edge source="A5005416520" target="A5080024357" id="163" weight="1" />
+      <edge source="A5021593590" target="A5059881766" id="164" weight="1" />
+      <edge source="A5021593590" target="A5103834894" id="165" weight="1" />
+      <edge source="A5021593590" target="A5063700071" id="166" weight="1" />
+      <edge source="A5059881766" target="A5103834894" id="167" weight="1" />
+      <edge source="A5059881766" target="A5063700071" id="168" weight="1" />
+      <edge source="A5103834894" target="A5063700071" id="169" weight="1" />
+      <edge source="A5098434260" target="A5035797152" id="170" weight="1" />
+      <edge source="A5098434260" target="A5016608746" id="171" weight="1" />
+      <edge source="A5035797152" target="A5016608746" id="172" weight="1" />
+      <edge source="A5069582778" target="A5010589296" id="173" weight="1" />
+      <edge source="A5069582778" target="A5071161715" id="174" weight="1" />
+      <edge source="A5069582778" target="A5036792900" id="175" weight="1" />
+      <edge source="A5069582778" target="A5066296657" id="176" weight="1" />
+      <edge source="A5069582778" target="A5091522680" id="177" weight="1" />
+      <edge source="A5010589296" target="A5071161715" id="178" weight="1" />
+      <edge source="A5010589296" target="A5036792900" id="179" weight="1" />
+      <edge source="A5010589296" target="A5066296657" id="180" weight="1" />
+      <edge source="A5010589296" target="A5091522680" id="181" weight="1" />
+      <edge source="A5071161715" target="A5036792900" id="182" weight="1" />
+      <edge source="A5071161715" target="A5066296657" id="183" weight="1" />
+      <edge source="A5071161715" target="A5091522680" id="184" weight="1" />
+      <edge source="A5036792900" target="A5066296657" id="185" weight="1" />
+      <edge source="A5036792900" target="A5091522680" id="186" weight="1" />
+      <edge source="A5066296657" target="A5091522680" id="187" weight="1" />
+      <edge source="A5073998529" target="A5070850077" id="188" weight="1" />
+      <edge source="A5073998529" target="A5030717121" id="189" weight="1" />
+      <edge source="A5073998529" target="A5074542232" id="190" weight="1" />
+      <edge source="A5070850077" target="A5030717121" id="191" weight="1" />
+      <edge source="A5070850077" target="A5074542232" id="192" weight="1" />
+      <edge source="A5030717121" target="A5074542232" id="193" weight="1" />
+      <edge source="A5108424486" target="A5076410656" id="194" weight="1" />
+      <edge source="A5083721768" target="A5025591297" id="195" weight="1" />
+    </edges>
+  </graph>
+</gexf>
