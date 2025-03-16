@@ -28,16 +28,16 @@ COLOUR_PALETTE_FULL = {
 
 COLOUR_PALETTE = {
     "AI": "#D32F2F",  # Artificial Intelligence
-    "Vision & Recognition": "#1976D2",  # Computer Vision and Pattern Recognition
-    "Info Systems": "#2E7D32",  # Information Systems
-    "Theory & Math": "#6A1B9A",  # Computational Theory and Mathematics
     "Networks & Communications": "#FF6F00",  # Computer Networks and Communications
-    "CS Applications": "#00838F",  # Computer Science Applications
-    "Software": "#0ad600",  # Software
+    "Info Systems": "#2E7D32",  # Information Systems
+    "Vision & Recognition": "#1976D2",  # Computer Vision and Pattern Recognition
+    "Theory & Math": "#6A1B9A",  # Computational Theory and Mathematics
     "Signal Processing": "#2CCFDB",  # Signal Processing
+    "CS Applications": "#00838F",  # Computer Science Applications
     "HCI": "#CE59D4",  # Human-Computer Interaction
-    "Hardware & Arch": "#455A64",  # Hardware and Architecture
+    "Software": "#0ad600",  # Software
     "Graphics & Aided-Design": "#D6914B",  # Computer Graphics and Computer-Aided Design
+    "Hardware & Arch": "#455A64",  # Hardware and Architecture
 }
 
 MARKERS_FULL = {
@@ -88,17 +88,17 @@ COUNTRY_CODES = {
 }
 
 COUNTRY_PALLETE = {
-    "BR": "#0aad2d",
+    "BR": "#A3A3A3",
     "US": "#184496",
-    "CN": "#df000a",
+    "IT": "#03B7E0",
+    "CA": "#A60037",
+    "CN": "#FF565A",
+    "DE": "#A200ED",
+    "PT": "#00B30C",
     "IN": "#dea323",
-    "GB": "#c658de",
-    "CA": "#ED2577",
-    "FR": "#5fb3cf",
-    "NL": "#ff6f00",
-    "IT": "#82D1B5",
-    "DE": "#6c09ba",
-    "ES": "BDA80D",
-    "AU": "6876FF",
-    "Others": "#c0c0c0"
+    "ES": "#FF5500",
+    "FR": "#00734D",
+    "AU": "#FF71F0",
+    "GB": "#427EDE",
+    "Others": "#ffffff"
 }
