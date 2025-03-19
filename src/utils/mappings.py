@@ -3,13 +3,13 @@ SUBFIELDS_SHORT = {
     "Information Systems": "Info Systems",
     "Computational Theory and Mathematics": "Theory & Math",
     "Artificial Intelligence": "AI",
-    "Computer Networks and Communications": "Networks & Communications",
+    "Computer Networks and Communications": "Net & Comm",
     "Computer Science Applications": "CS Applications",
     "Software": "Software",
     "Signal Processing": "Signal Processing",
     "Human-Computer Interaction": "HCI",
     "Hardware and Architecture": "Hardware & Arch",
-    "Computer Graphics and Computer-Aided Design": "Graphics & Aided-Design",
+    "Computer Graphics and Computer-Aided Design": "Graphics & CAD",
 }
 
 COLOUR_PALETTE_FULL = {
@@ -28,15 +28,15 @@ COLOUR_PALETTE_FULL = {
 
 COLOUR_PALETTE = {
     "AI": "#D32F2F",  # Artificial Intelligence
-    "Networks & Communications": "#FF6F00",  # Computer Networks and Communications
+    "Net & Comm": "#FF6F00",  # Computer Networks and Communications
     "Info Systems": "#2E7D32",  # Information Systems
     "Vision & Recognition": "#1976D2",  # Computer Vision and Pattern Recognition
     "Theory & Math": "#6A1B9A",  # Computational Theory and Mathematics
     "Signal Processing": "#2CCFDB",  # Signal Processing
-    "CS Applications": "#00838F",  # Computer Science Applications
+    "CS Apps": "#00838F",  # Computer Science Applications
     "HCI": "#CE59D4",  # Human-Computer Interaction
     "Software": "#0ad600",  # Software
-    "Graphics & Aided-Design": "#D6914B",  # Computer Graphics and Computer-Aided Design
+    "Graphics & CAD": "#D6914B",  # Computer Graphics and Computer-Aided Design
     "Hardware & Arch": "#455A64",  # Hardware and Architecture
 }
 
@@ -59,13 +59,13 @@ MARKERS = {
     "Vision & Recognition": "o",  # Computer Vision and Pattern Recognition
     "Info Systems": "X",  # Information Systems
     "Theory & Math": "s",  # Computational Theory and Mathematics
-    "Networks & Communications": "v",  # Computer Networks and Communications
-    "CS Applications": "D",  # Computer Science Applications
+    "Net & Comm": "v",  # Computer Networks and Communications
+    "CS Apps": "D",  # Computer Science Applications
     "Software": "d",  # Software
     "Signal Processing": "p",  # Signal Processing
     "HCI": "*",  # Human-Computer Interaction
     "Hardware & Arch": "<",  # Hardware and Architecture
-    "Graphics & Aided-Design": ">",  # Computer Graphics and Computer-Aided Design
+    "Graphics & CAD": ">",  # Computer Graphics and Computer-Aided Design
 }
 
 
