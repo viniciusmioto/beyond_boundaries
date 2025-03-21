@@ -67,11 +67,11 @@ for author_id, data in authors.items():
     country = data['countries'].most_common(1)
     country = country[0][0] if country else None
     
-    # Calculate subfield counts
+    # Calculate subfield counts and total publications
     subfield_counts = Counter(pub['subfield'] for pub in data['publications'])
-    total = sum(subfield_counts.values())
+    total = len(data['publications'])  # Total number of publications
     
-    # Determine primary subfield with tie-breaking logic
+    # Determine primary subfield with updated tie-breaking logic
     primary_subfield = None
     if subfield_counts:
         max_count = max(subfield_counts.values())
@@ -80,14 +80,17 @@ for author_id, data in authors.items():
         if len(candidates) == 1:
             primary_subfield = candidates[0]
         else:
-            # Filter publications to candidate subfields
-            candidate_pubs = [pub for pub in data['publications'] if pub['subfield'] in candidates]
-            
-            # Sort by: 1) year (desc), 2) citations (desc), 3) num authors (asc)
-            candidate_pubs.sort(key=lambda x: (-x['year'], -x['cited_by'], x['num_authors']))
-            
-            if candidate_pubs:
-                primary_subfield = candidate_pubs[0]['subfield']
+            if total < 5:
+                primary_subfield = 'unknown'
+            else:
+                # Filter publications to candidate subfields
+                candidate_pubs = [pub for pub in data['publications'] if pub['subfield'] in candidates]
+                
+                # Sort by: 1) year (desc), 2) citations (desc), 3) num authors (asc)
+                candidate_pubs.sort(key=lambda x: (-x['year'], -x['cited_by'], x['num_authors']))
+                
+                if candidate_pubs:
+                    primary_subfield = candidate_pubs[0]['subfield']
     
     # Create row
     row = {
@@ -114,4 +117,4 @@ df_authors = df_authors[columns]
 # Save to CSV
 df_authors.to_csv(OUTPUT_FILE, index=False)
 
-print("Authors CSV created successfully with tie-breaking logic!")
+print("Authors CSV created successfully with updated tie-breaking logic!")

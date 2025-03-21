@@ -1,12 +1,13 @@
-,subfield_display,domestic_publications,international_publications,total_publications,domestic_percentage,international_percentage
-1,Computational Theory and Mathematics,2472,1481,3953,62.53478370857577,37.465216291424234
-3,Computer Networks and Communications,5315,2576,7891,67.35521480167279,32.644785198327206
-2,Computer Graphics and Computer-Aided Design,251,117,368,68.20652173913044,31.793478260869566
-6,Hardware and Architecture,811,358,1169,69.37553464499572,30.624465355004276
-0,Artificial Intelligence,10015,4157,14172,70.66751340671748,29.332486593282532
-5,Computer Vision and Pattern Recognition,4473,1744,6217,71.9478848319125,28.052115168087504
-9,Signal Processing,1544,595,2139,72.18326320710614,27.816736792893877
-10,Software,583,224,807,72.24287484510533,27.757125154894673
-4,Computer Science Applications,2261,768,3029,74.64509739187851,25.354902608121492
-7,Human-Computer Interaction,1443,397,1840,78.42391304347827,21.57608695652174
-8,Information Systems,22150,4459,26609,83.24251193205306,16.757488067946934
+subfield_display,domestic_publications,international_publications,total_publications,domestic_percentage,international_percentage,domestic_avg_citations,international_avg_citations
+Computational Theory and Mathematics,2472,1481,3953,62.53,37.47,0.15,0.35
+Computer Networks and Communications,5315,2576,7891,67.36,32.64,0.06,0.18
+Computer Graphics and Computer-Aided Design,251,117,368,68.21,31.79,0.81,2.13
+Hardware and Architecture,811,358,1169,69.38,30.62,0.29,0.59
+Artificial Intelligence,10015,4157,14172,70.67,29.33,0.04,0.1
+Computer Vision and Pattern Recognition,4473,1744,6217,71.95,28.05,0.1,0.23
+Signal Processing,1544,595,2139,72.18,27.82,0.26,0.6
+Software,583,224,807,72.24,27.76,0.58,1.38
+Computer Science Applications,2261,768,3029,74.65,25.35,0.15,0.34
+Human-Computer Interaction,1443,397,1840,78.42,21.58,0.23,0.67
+Information Systems,22150,4459,26609,83.24,16.76,0.01,0.04
+Total,51318,16876,68194,75.25,24.75,3.9500954830663706,12.545034368333729

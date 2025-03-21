@@ -1,62 +1,54 @@
 import pandas as pd
 import json
 
-
 PUBLICATIONS_PATH = "../../data/raw/publication_meta/br_publication_meta.csv"
 OUTPUT_PATH = "../../data/processed/4_international_proportion.csv"
 
 
-def summarize_subfield_publications(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    For each subfield, computes the number and percentage of publications that are:
-      - Domestic only: all authors have affiliations exclusively to Brazilian institutions.
-      - International collaborations: at least one author is affiliated with a non-Brazilian institution.
+def process_base_data(df: pd.DataFrame) -> pd.DataFrame:
+    """Add required columns to the raw data."""
 
-    The function returns a DataFrame with the following columns:
-      - subfield_display: the subfield's display name.
-      - domestic_publications: count of publications with only Brazilian affiliations.
-      - international_publications: count of publications with any international affiliation.
-      - total_publications: total count of publications for that subfield.
-      - domestic_percentage: percentage of domestic publications.
-      - international_percentage: percentage of international collaboration publications.
-
-    Parameters:
-        df (pd.DataFrame): The input DataFrame containing at least 'authorships' and 'subfield' columns.
-
-    Returns:
-        pd.DataFrame: Summary table as described above.
-    """
-
-    # Helper function to parse the subfield display name
     def get_subfield_display(subfield_json: str):
         try:
             return json.loads(subfield_json).get("display_name")
         except (json.JSONDecodeError, TypeError):
             return None
 
-    # Helper function to check if publication is domestic-only.
-    # It returns True if every author has affiliations only to Brazil ("BR").
     def is_domestic_publication(authorships_json: str) -> bool:
         try:
             authors = json.loads(authorships_json)
         except (json.JSONDecodeError, TypeError):
-            # if parsing fails, treat publication as not domestic
             return False
         for author in authors:
             countries = author.get("countries", [])
-            # if any country is not "BR", then publication is international
             if any(country != "BR" for country in countries):
                 return False
         return True
 
-    # Create new columns in a copy of the DataFrame
-    df = df.copy()
-    df["subfield_display"] = df["subfield"].apply(get_subfield_display)
-    df["is_domestic"] = df["authorships"].apply(is_domestic_publication)
+    processed_df = df.copy()
+    processed_df["subfield_display"] = processed_df["subfield"].apply(
+        get_subfield_display
+    )
+    processed_df["is_domestic"] = processed_df["authorships"].apply(
+        is_domestic_publication
+    )
+    return processed_df
 
-    # Group by subfield and compute counts
+
+def summarize_subfield_publications(processed_df: pd.DataFrame) -> pd.DataFrame:
+    """Generate summary statistics from processed data."""
+    citation_avg = (
+        processed_df.groupby(["subfield_display", "is_domestic"])["cited_by_count"]
+        .mean()
+        .unstack()
+    )
+    citation_avg.rename(
+        columns={True: "domestic_avg_citations", False: "international_avg_citations"},
+        inplace=True,
+    )
+
     summary = (
-        df.groupby("subfield_display")
+        processed_df.groupby("subfield_display")
         .agg(
             domestic_publications=("is_domestic", "sum"),
             total_publications=("is_domestic", "count"),
@@ -64,19 +56,25 @@ def summarize_subfield_publications(df: pd.DataFrame) -> pd.DataFrame:
         .reset_index()
     )
 
-    # Calculate international counts and percentages
+    summary = summary.merge(citation_avg, on="subfield_display", how="left")
     summary["international_publications"] = (
         summary["total_publications"] - summary["domestic_publications"]
     )
     summary["domestic_percentage"] = (
         summary["domestic_publications"] / summary["total_publications"] * 100
-    )
+    ).round(2)
     summary["international_percentage"] = (
         summary["international_publications"] / summary["total_publications"] * 100
-    )
+    ).round(2)
 
-    # Optional: Order columns for readability
-    summary = summary[
+    summary["domestic_avg_citations"] = (
+        summary["domestic_avg_citations"] / summary["total_publications"] * 100
+    ).round(2)
+    summary["international_avg_citations"] = (
+        summary["international_avg_citations"] / summary["total_publications"] * 100
+    ).round(2)
+
+    return summary[
         [
             "subfield_display",
             "domestic_publications",
@@ -84,17 +82,49 @@ def summarize_subfield_publications(df: pd.DataFrame) -> pd.DataFrame:
             "total_publications",
             "domestic_percentage",
             "international_percentage",
+            "domestic_avg_citations",
+            "international_avg_citations",
         ]
     ]
 
-    return summary
+
+def add_total_row(summary: pd.DataFrame, processed_df: pd.DataFrame) -> pd.DataFrame:
+    """Calculate cross-subfield totals using processed data."""
+    total_domestic = processed_df["is_domestic"].sum()
+    total_publications = len(processed_df)
+    total_international = total_publications - total_domestic
+
+    total_row = {
+        "subfield_display": "Total",
+        "domestic_publications": total_domestic,
+        "international_publications": total_international,
+        "total_publications": total_publications,
+        "domestic_percentage": round((total_domestic / total_publications) * 100, 2),
+        "international_percentage": round(
+            (total_international / total_publications) * 100, 2
+        ),
+        "domestic_avg_citations": processed_df[processed_df["is_domestic"]][
+            "cited_by_count"
+        ].mean(),
+        "international_avg_citations": processed_df[~processed_df["is_domestic"]][
+            "cited_by_count"
+        ].mean(),
+    }
+
+    return pd.concat([summary, pd.DataFrame([total_row])], ignore_index=True)
 
 
-
+# Main execution flow
 publications_df = pd.read_csv(PUBLICATIONS_PATH)
 print("Read publications")
-summary_df = summarize_subfield_publications(publications_df)
-print("Created summary")
-summary_df.sort_values(by=["domestic_percentage", "international_percentage",], inplace=True)
-summary_df.to_csv(OUTPUT_PATH)
-print(f"Summary saved to {OUTPUT_PATH}")
+
+processed_df = process_base_data(publications_df)
+print("Processed base data")
+
+summary_df = summarize_subfield_publications(processed_df)
+print("Created subfield summary")
+
+summary_df.sort_values(by="domestic_percentage", inplace=True)
+final_summary = add_total_row(summary_df, processed_df)  # Use processed_df here
+final_summary.to_csv(OUTPUT_PATH, index=False)
+print(f"Complete summary saved to {OUTPUT_PATH}")

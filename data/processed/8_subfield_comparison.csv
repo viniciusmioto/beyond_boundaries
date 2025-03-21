@@ -1,0 +1,13 @@
+subfield_display,single_publications,multi_publications,total_publications,single_percentage,multi_percentage,single_avg_citations,multi_avg_citations
+Software,346,440,786,44.02,55.98,0.83,0.75
+Hardware and Architecture,502,615,1117,44.94,55.06,0.39,0.39
+Signal Processing,1025,1073,2098,48.86,51.14,0.36,0.35
+Computer Graphics and Computer-Aided Design,199,159,358,55.59,44.41,1.24,1.3
+Human-Computer Interaction,1031,791,1822,56.59,43.41,0.22,0.47
+Computer Science Applications,1751,1260,3011,58.15,41.85,0.15,0.27
+Computer Vision and Pattern Recognition,3728,2406,6134,60.78,39.22,0.12,0.16
+Computer Networks and Communications,5158,2594,7752,66.54,33.46,0.1,0.1
+Artificial Intelligence,10204,3784,13988,72.95,27.05,0.05,0.06
+Computational Theory and Mathematics,3108,731,3839,80.96,19.04,0.23,0.25
+Information Systems,22925,3560,26485,86.56,13.44,0.01,0.02
+Total,49977,17413,67390,74.16,25.84,5.33975628789243,7.8684316315396545
