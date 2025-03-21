@@ -1,13 +1,13 @@
-Primary Subfield,1st Most Collaborative Subfield,2nd Most Collaborative Subfield,3rd Most Collaborative Subfield
-Artificial Intelligence,Information Systems,Computer Vision and Pattern Recognition,Computer Networks and Communications
-unknown,Artificial Intelligence,Information Systems,Computer Networks and Communications
-Computer Networks and Communications,Information Systems,Artificial Intelligence,Computer Vision and Pattern Recognition
-Computational Theory and Mathematics,Artificial Intelligence,Computer Networks and Communications,Computer Vision and Pattern Recognition
-Signal Processing,Artificial Intelligence,Computer Vision and Pattern Recognition,Computer Networks and Communications
-Computer Vision and Pattern Recognition,Artificial Intelligence,Computer Networks and Communications,Information Systems
-Information Systems,Artificial Intelligence,Computer Networks and Communications,Computer Science Applications
-Computer Science Applications,Information Systems,Artificial Intelligence,Computer Vision and Pattern Recognition
-Human-Computer Interaction,Computer Vision and Pattern Recognition,Information Systems,Artificial Intelligence
-Software,Information Systems,Artificial Intelligence,Computer Networks and Communications
-Hardware and Architecture,Computer Networks and Communications,Artificial Intelligence,Information Systems
-Computer Graphics and Computer-Aided Design,Computer Vision and Pattern Recognition,Artificial Intelligence,Computer Networks and Communications
+Primary Subfield,1st Most Collaborative Subfield,2nd Most Collaborative Subfield,3rd Most Collaborative Subfield,Collaboration Percentage
+unknown,AI,Info Systems,Net & Comm,100.0
+Hardware & Arch,Net & Comm,AI,Info Systems,19.25
+Signal Processing,AI,Vision & Recognition,Net & Comm,14.74
+Net & Comm,Info Systems,AI,Vision & Recognition,13.76
+Vision & Recognition,AI,Net & Comm,Info Systems,13.5
+Software,Info Systems,AI,Net & Comm,12.44
+CS Applications,Info Systems,AI,Vision & Recognition,9.77
+AI,Info Systems,Vision & Recognition,Net & Comm,9.74
+HCI,Vision & Recognition,Info Systems,AI,9.45
+Graphics & CAD,Vision & Recognition,AI,Net & Comm,7.45
+Theory & Math,AI,Net & Comm,Vision & Recognition,6.69
+Info Systems,AI,Net & Comm,CS Applications,3.62
