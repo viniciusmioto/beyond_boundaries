@@ -46,24 +46,12 @@ The study focuses on answering two primary questions:
 ## Repository Structure
 ```
 ├── src/ 
-│ ├── data_processing/ 
-│ │ ├── 1_extract_publication_summary_of_countries.py
-│ │ ├── 2_0_count_publications_per_subfield_country.py
-│ │ ├── 2_1_concat_publications_per_subfield.py
-│ │ ├── 2_2_compute_subfields_percentage.py 
-│ │ ├── 3_0_collect_publication_meta.py 
-│ │ ├── 3_1_concat_publication_meta.py 
-│ │ ├── 3_2_construct_collabnets_years.py 
-│ │ ├── 3_3_construct_collabnets_filter.py 
-│ │ ├── 4_0_combine_networks.py 
-│ │ ├── 4_1_calculate_international.py 
-│ │ ├── 5_0_compute_centralization.py 
-│ ├── visualization/ 
-│ │ ├── 2_subfield_percentages.ipynb 
-│ │ ├── 4_international_heatmap.ipynb 
-│ │ ├── 5_betweenness_centralization.ipynb 
-│ │ ├── 6_degree_distribution.ipynb 
-│ │ ├── 7_gephi_legends.ipynb 
+│ ├── 1_extraction/ 
+│ │ ├── Python scripts to retrieve data from API
+│ ├── 2_processing/ 
+│ │ ├── Python scripts to process and clean the data
+│ ├── 3_visualization/ 
+│ │ ├── Jupyter Notebooks for data visualization
 │ └── utils/ 
 │   └── mappings.py 
 ├── data/ 
@@ -75,15 +63,11 @@ The study focuses on answering two primary questions:
 └── README.md (this file)
 ```
 
-- **data_processing/**: Contains scripts for extracting and processing publication metadata.
-- **visualization/**: Jupyter notebooks for generating figures, heatmaps, and network graphs.
-- **utils/**: Utility functions for data mapping and standardization.
-
 ---
 
 ## Data Description
 
-### Main Data File: `br_publications.csv`
+### Main Data File: `br_publications_meta.csv`
 
 This CSV file includes metadata for academic publications, with columns such as:
 
@@ -143,15 +127,13 @@ The repository produces co-authorship networks exported in GEXF format. In these
 **Focus:** Extracts Brazilian computer science publications (2015–2024) with details on authors, institutions, citations, subfields, and topics.  
 **Strategy:** Utilizes API response metadata for aggregate counts and detailed publication metadata for in-depth analyses.  
 
-### Data Processing
+### Processing
 Scripts in `src/data_processing/` perform tasks including:
 
-- **Country-level summaries:** `1_extract_publication_summary_of_countries.py`
-- **Subfield analysis:** Counting and concatenating publication data across subfields (`2_0*`, `2_1*`, `2_2*`)
-- **Metadata aggregation:** Collecting and consolidating publication metadata (`3_0*`, `3_1*`)
-- **Network construction:** Building and filtering co-authorship networks (`3_2*`, `3_3*`)
-- **International collaboration metrics:** Calculating statistics (`4_0*`, `4_1*`)
-- **Centrality measures:** Analyzing network centralization (`5_0_compute_centralization.py`)
+- **Country-level summaries:** Counting and concatenating publication data across subfields 
+- **Metadata aggregation:** Consolidating publication metadata
+- **Network construction:** Building and filtering co-authorship networks 
+- **Calculate metrics:** Calculating statistics, averages, and network centralization
 
 ### Network Construction & Analysis
 - **Co-authorship Networks:** Nodes (authors) and edges (collaboration links) are generated based on co-authorship data.
@@ -174,18 +156,17 @@ pip install -r requirements.txt
 ### 2. Execute Data Processing Pipeline
 Run the scripts sequentially as follows:
 ```sh
-python src/data_processing/1_extract_publication_summary_of_countries.py
-python src/data_processing/2_0_count_publications_per_subfield_country.py
-python src/data_processing/2_1_concat_publications_per_subfield.py
-python src/data_processing/2_2_compute_subfields_percentage.py
-python src/data_processing/3_0_collect_publication_meta.py
-python src/data_processing/3_1_concat_publication_meta.py
-python src/data_processing/3_2_construct_collabnets_years.py
-python src/data_processing/3_3_construct_collabnets_filter.py
-python src/data_processing/4_0_combine_networks.py
-python src/data_processing/4_1_calculate_international.py
-python src/data_processing/5_0_compute_centralization.py
+python src/1_extraction/1_0_extract_publication_summary_of_countries.py
 ```
+- Until the last Python script. Data will be saved to `data/raw/`.
+
+After that, run the processing:
+
+```sh
+python src/2_processing/2_0_concat_publications_per_subfield.py
+```
+- Until the last Python script. Data will be saved to `data/processed/`.
+
 
 ### 3. Run Visualization Notebooks
 Launch Jupyter Notebook:
@@ -194,12 +175,14 @@ jupyter notebook
 ```
 Navigate to `src/visualization/` and execute the notebooks in order.
 
-## Linux/Mac
+## Importing Local Files
+
+### Linux/Mac
 ```sh
 export PYTHONPATH=$(pwd)/src:$PYTHONPATH
 ```
 
-## Windows
+### Windows
 ```powershell
 $env:PYTHONPATH = "$($pwd.Path)\src;$env:PYTHONPATH"
 ```
