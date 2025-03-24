@@ -67,13 +67,6 @@ def summarize_subfield_publications(processed_df: pd.DataFrame) -> pd.DataFrame:
         summary["international_publications"] / summary["total_publications"] * 100
     ).round(2)
 
-    summary["domestic_avg_citations"] = (
-        summary["domestic_avg_citations"] / summary["total_publications"] * 100
-    ).round(2)
-    summary["international_avg_citations"] = (
-        summary["international_avg_citations"] / summary["total_publications"] * 100
-    ).round(2)
-
     return summary[
         [
             "subfield_display",

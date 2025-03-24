@@ -86,18 +86,13 @@ for primary, collabs in collab_counts.items():
         if top_collabs[1][0] is not None
         else None
     )
-    short_collab3 = (
-        mappings.SUBFIELDS_SHORT.get(top_collabs[2][0], top_collabs[2][0])
-        if top_collabs[2][0] is not None
-        else None
-    )
 
     results.append(
         {
             "Primary Subfield": short_primary,
+            "Total Authors": total,
             "1st Most Collaborative Subfield": short_collab1,
             "2nd Most Collaborative Subfield": short_collab2,
-            "3rd Most Collaborative Subfield": short_collab3,
             "Collaboration Percentage": round(percentage, 2),
         }
     )

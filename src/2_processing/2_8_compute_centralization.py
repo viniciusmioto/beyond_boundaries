@@ -92,7 +92,7 @@ def create_centralization_dataframe(data_dir, subfields, years):
                 print(f"Combined: {filename}")
             except (FileNotFoundError, IOError) as e:
                 print(f"Warning: Could not load {filename}: {e}")
-            
+
             # Calculate centralization if the cumulative graph has nodes, otherwise assign NaN
             if cumulative_G.number_of_nodes() > 0:
                 df.at[subfield, year] = betweenness_centralization(cumulative_G)

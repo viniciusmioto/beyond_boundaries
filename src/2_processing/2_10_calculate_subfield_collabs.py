@@ -76,10 +76,6 @@ def summarize_subfield_publications(processed_df: pd.DataFrame) -> pd.DataFrame:
             summary[f"{col}_publications"] / summary["total_publications"] * 100
         ).round(2)
     
-    # Maintain original normalization pattern
-    for col in ["single_avg_citations", "multi_avg_citations"]:
-        summary[col] = (summary[col] / summary["total_publications"] * 100).round(2)
-
     return summary[
         [
             "subfield_display",
