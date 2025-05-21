@@ -471,8 +471,8 @@ def main() -> None:
         author_metadata_tuple,
         filtered_graph_output_path,
         HIGHLY_CITED_GRAPH,
+        min_edge_weight=1,
         min_citations=MIN_CITATIONS_FOR_FILTERED_GRAPH,
-        min_edge_weight=MIN_EDGE_WEIGHT_FOR_FILTERED_GRAPH
     )
 
     # --- Generate and Save Recurrent Highly Citated Network ---
