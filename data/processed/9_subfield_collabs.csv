@@ -1,0 +1,13 @@
+Primary Subfield,Total Authors,1st Most Collaborative Subfield,2nd Most Collaborative Subfield,Collaboration Percentage
+unknown,5066,AI,Info Systems,100.0
+Hardware & Arch,1392,Net & Comm,AI,19.25
+Signal Processing,2478,AI,Vision & Recognition,14.77
+Net & Comm,10696,Info Systems,AI,13.77
+Vision & Recognition,9802,AI,Net & Comm,13.5
+Software,868,Info Systems,AI,12.44
+AI,22909,Info Systems,Vision & Recognition,9.75
+CS Applications,4788,Info Systems,AI,9.73
+HCI,3039,Vision & Recognition,Info Systems,9.51
+Graphics & CAD,537,Vision & Recognition,AI,7.45
+Theory & Math,7151,AI,Net & Comm,6.7
+Info Systems,60121,AI,Net & Comm,3.62
