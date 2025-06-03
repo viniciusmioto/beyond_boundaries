@@ -1,0 +1,25 @@
+subfield_display,collaboration_type,average_citations,std_dev_citations,median_citations,q1_citations,q3_citations,max_citations,percentage_uncited_papers,percentage_low_cited_papers,publication_count
+Artificial Intelligence,Domestic,5.51,16.81,1.0,0.0,5.0,480,41.83,36.14,10009
+Artificial Intelligence,International,14.11,46.82,4.0,1.0,13.0,1730,24.04,33.16,4152
+Computational Theory and Mathematics,Domestic,5.92,14.73,1.0,0.0,6.0,214,37.52,36.75,2471
+Computational Theory and Mathematics,International,13.87,101.91,4.0,1.0,11.0,3587,20.74,37.5,1480
+Computer Graphics and Computer-Aided Design,Domestic,3.0,7.65,1.0,0.0,3.0,81,45.82,38.65,251
+Computer Graphics and Computer-Aided Design,International,7.82,19.45,2.0,0.0,7.0,131,29.06,42.74,117
+Computer Networks and Communications,Domestic,4.89,18.06,1.0,0.0,4.0,886,44.81,34.22,5309
+Computer Networks and Communications,International,14.3,35.22,4.0,1.0,14.0,540,22.83,33.05,2575
+Computer Science Applications,Domestic,4.6,15.82,1.0,0.0,4.0,366,38.67,42.92,2260
+Computer Science Applications,International,10.21,41.64,2.0,0.0,8.0,885,31.46,37.99,766
+Computer Vision and Pattern Recognition,Domestic,6.2,24.69,1.0,0.0,5.0,944,36.91,38.28,4470
+Computer Vision and Pattern Recognition,International,14.43,33.77,4.0,1.0,13.0,508,22.88,34.52,1744
+Hardware and Architecture,Domestic,3.39,6.22,1.0,0.0,4.0,56,38.35,43.65,811
+Hardware and Architecture,International,6.88,13.44,3.0,0.0,8.0,145,25.7,41.06,358
+Human-Computer Interaction,Domestic,4.24,10.19,1.0,0.0,4.0,121,42.0,38.88,1443
+Human-Computer Interaction,International,12.35,83.41,2.0,0.0,7.0,1616,30.48,38.29,397
+Information Systems,Domestic,2.16,9.32,0.0,0.0,1.0,745,60.48,30.61,22135
+Information Systems,International,9.95,200.14,1.0,0.0,4.0,13248,45.48,32.45,4450
+Signal Processing,Domestic,5.6,15.26,2.0,0.0,6.0,354,32.4,42.26,1543
+Signal Processing,International,12.96,32.99,5.0,1.0,12.0,519,19.19,33.67,594
+Software,Domestic,4.67,9.89,2.0,0.0,5.0,158,34.99,41.17,583
+Software,International,11.17,20.07,3.0,1.0,15.0,145,19.2,37.95,224
+Total,Domestic,3.95,14.68,1.0,0.0,3.0,944,49.02,34.52,51285
+Total,International,12.56,112.38,3.0,0.0,10.0,13248,29.43,34.13,16857

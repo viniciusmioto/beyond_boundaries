@@ -1,13 +1,13 @@
-subfield_display,domestic_publications,international_publications,total_publications,domestic_percentage,international_percentage,domestic_avg_citations,international_avg_citations
-Computational Theory and Mathematics,2471,1480,3951,62.54,37.46,5.922298664508296,13.867567567567567
-Computer Networks and Communications,5309,2575,7884,67.34,32.66,4.886984366170654,14.303300970873787
-Computer Graphics and Computer-Aided Design,251,117,368,68.21,31.79,2.99601593625498,7.82051282051282
-Hardware and Architecture,811,358,1169,69.38,30.62,3.3859432799013565,6.877094972067039
-Artificial Intelligence,10009,4152,14161,70.68,29.32,5.514736736936757,14.109344894026975
-Computer Vision and Pattern Recognition,4470,1744,6214,71.93,28.07,6.201789709172259,14.427178899082568
-Signal Processing,1543,594,2137,72.2,27.8,5.598185353208036,12.956228956228957
-Software,583,224,807,72.24,27.76,4.667238421955403,11.169642857142858
-Computer Science Applications,2260,766,3026,74.69,25.31,4.599557522123894,10.20757180156658
-Human-Computer Interaction,1443,397,1840,78.42,21.58,4.242550242550243,12.350125944584383
-Information Systems,22135,4450,26585,83.26,16.74,2.1611475039530155,9.953932584269664
-Total,51285,16857,68142,75.26,24.74,3.952598225602028,12.557987779557454
+subfield_display,domestic_publications,international_publications,total_publications,domestic_percentage,international_percentage
+Computational Theory and Mathematics,2471,1480,3951,62.54,37.46
+Computer Networks and Communications,5309,2575,7884,67.34,32.66
+Computer Graphics and Computer-Aided Design,251,117,368,68.21,31.79
+Hardware and Architecture,811,358,1169,69.38,30.62
+Artificial Intelligence,10009,4152,14161,70.68,29.32
+Computer Vision and Pattern Recognition,4470,1744,6214,71.93,28.07
+Signal Processing,1543,594,2137,72.2,27.8
+Software,583,224,807,72.24,27.76
+Computer Science Applications,2260,766,3026,74.69,25.31
+Human-Computer Interaction,1443,397,1840,78.42,21.58
+Information Systems,22135,4450,26585,83.26,16.74
+Total,51285,16857,68142,75.26,24.74

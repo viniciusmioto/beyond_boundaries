@@ -2,7 +2,7 @@ import pandas as pd
 import json
 
 PUBLICATIONS_PATH = "../../data/raw/publication_meta/br_publication_meta.csv"
-OUTPUT_PATH = "../../data/processed/4_1_international_proportion_temporal.csv"
+OUTPUT_PATH = "../../data/processed/4_2_international_proportion_temporal.csv"
 
 
 def process_base_data(df: pd.DataFrame) -> pd.DataFrame:
