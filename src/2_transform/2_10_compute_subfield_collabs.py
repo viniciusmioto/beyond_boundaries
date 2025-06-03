@@ -2,7 +2,7 @@ import pandas as pd
 import json
 import ast
 
-INPUT_PATH = "../../data/processed/7_publications_collab_types.csv"
+INPUT_PATH = "../../data/processed/6_publications_collab_types.csv"
 AUTHORS_PATH = "../../data/processed/3_authors.csv"
 OUTPUT_PATH = "../../data/processed/8_subfield_comparison.csv"
 
