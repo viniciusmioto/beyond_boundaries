@@ -1,0 +1,3 @@
+filename,nodes,edges,fragmentation,clustering_coefficient,nodes_in_largest_component,publication_count
+_highly_cited_net,6811,57515,0.8538068870624977,0.9024997017349103,2573,1775
+_recurrent_highly_cited_net,1063,2237,0.9681567818755503,0.6452872147864964,137,0

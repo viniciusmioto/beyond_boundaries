@@ -8,12 +8,15 @@ from typing import List, Dict, Tuple, Any, Optional, Set
 
 # --- Constants ---
 INPUT_PATH = "../../data/raw/publication_meta/br_publication_meta.csv"
-OUTPUT_PATH = "../../data/graphs"
+OUTPUT_PATH = "../../data/graphs/"
 FULL_GRAPH_DIR_NAME = "full"
 FULL_GRAPH_FILENAME = "_collabnet_full.gexf"
-RECURRENT_H_CITED_GRAPH = "_recurrent_highly_cited_net.gexf"
 HIGHLY_CITED_GRAPH = "_highly_cited_net.gexf"
+RECURRENT_H_CITED_GRAPH = "_recurrent_highly_cited_net.gexf"
 PUBLICATION_COUNTS_FILENAME_SUFFIX = "_publication_counts.json"
+MIN_CITATIONS_FOR_HC = 40
+MIN_EDGE_WEIGHT_FOR_RHC = 2
+
 
 # List of subfields to generate networks for
 SUBFIELDS = [
@@ -327,22 +330,59 @@ def main() -> None:
         return
 
     # --- Generate and Save Full Network ---
-    generate_and_save_network(
-        publications_df,
-        author_metadata_tuple,
-        output_path,
-        FULL_GRAPH_FILENAME
-    )
+    # generate_and_save_network(
+    #     publications_df,
+    #     author_metadata_tuple,
+    #     output_path,
+    #     FULL_GRAPH_FILENAME
+    # )
     
-    # --- Generate and Save Subfield Networks ---
-    # This uses the same author metadata but filters publications by subfield
-    generate_and_save_subfield_networks(
-        publications_df,
-        author_metadata_tuple,
-        output_path
-    )
+    # # --- Generate and Save Subfield Networks ---
+    # # This uses the same author metadata but filters publications by subfield
+    # generate_and_save_subfield_networks(
+    #     publications_df,
+    #     author_metadata_tuple,
+    #     output_path
+    # )
 
     print("\nCollaboration network generation process finished.")
+
+    # --- Generate and Save Highly Cited Network (>= 40 citations) ---
+    highly_cited_df = publications_df[publications_df["cited_by_count"] >= MIN_CITATIONS_FOR_HC]
+    if not highly_cited_df.empty:
+        generate_and_save_network(
+            highly_cited_df,
+            author_metadata_tuple,
+            output_path,
+            HIGHLY_CITED_GRAPH
+        )
+    else:
+        print("No publications with 40 or more citations found for highly cited network.")
+
+    # --- Generate and Save Recurrent Highly Cited Network (>= 40 citations, >= 2 edge weight) ---
+    # load the highly cited network to filter recurrent authors
+    highly_cited_network_path = os.path.join(output_path, HIGHLY_CITED_GRAPH)
+    if os.path.exists(highly_cited_network_path):
+        highly_cited_network = nx.read_gexf(highly_cited_network_path)
+        
+        # Remove edges with weight < 2
+        recurrent_edges = [(u, v) for u, v, d in highly_cited_network.edges(data=True) if d['weight'] >= MIN_EDGE_WEIGHT_FOR_RHC]
+        recurrent_hc_network = highly_cited_network.edge_subgraph(recurrent_edges).copy()
+        recurrent_hc_network.remove_nodes_from(list(nx.isolates(recurrent_hc_network)))
+
+        if recurrent_hc_network.number_of_nodes() > 0:
+            recurrent_hc_output_path = os.path.join(output_path, RECURRENT_H_CITED_GRAPH)
+            _save_graph_to_gexf(recurrent_hc_network, recurrent_hc_output_path)
+
+            # Save publication count for recurrent highly cited network
+            pub_count_file_path = os.path.join(output_path, RECURRENT_H_CITED_GRAPH.replace(".gexf", PUBLICATION_COUNTS_FILENAME_SUFFIX))
+            _save_publication_count(0, pub_count_file_path)
+            print(f"Recurrent highly cited network saved with {recurrent_hc_network.number_of_nodes()} nodes and {recurrent_hc_network.number_of_edges()} edges.")
+        else:
+            print("No recurrent highly cited authors found with sufficient collaboration.")
+    else:
+        print(f"Highly cited network file not found at {highly_cited_network_path}. Cannot generate recurrent highly cited network.")
+
 
 if __name__ == "__main__":
     main()

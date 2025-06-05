@@ -1,0 +1,13 @@
+subfield_name,avg_authors_per_publication,std_dev_authors_per_publication,median_authors_per_publication,max_authors_in_publication,percentage_single_author_publications
+Artificial Intelligence,3.73,3.15,3,100,8.65
+Computational Theory and Mathematics,3.81,4.02,3,100,10.63
+Computer Graphics and Computer-Aided Design,3.34,1.62,3,10,5.43
+Computer Networks and Communications,3.91,2.62,4,77,6.53
+Computer Science Applications,3.63,2.14,3,41,8.16
+Computer Vision and Pattern Recognition,4.02,2.85,4,100,4.6
+Hardware and Architecture,4.14,2.0,4,28,1.71
+Human-Computer Interaction,3.62,2.37,3,42,10.33
+Information Systems,3.75,2.58,3,58,11.17
+Signal Processing,4.04,2.24,4,45,2.15
+Software,3.62,1.85,3,23,5.2
+TOTAL,3.8,2.79,3,100,8.78
